@@ -1,0 +1,27 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "crypto-trading-skills",
+  "displayName": "TradeSkill — Crypto Trading Agent Skills",
+  "description": "95 AI Agent skills for crypto trading across 15 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter).",
+  "version": "1.0.0",
+  "publisher": "0xethanq",
+  "author": {
+    "name": "0xethanq",
+    "url": "https://astraquant.tech"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "ai-agents",
+    "okx",
+    "binance",
+    "bybit",
+    "kraken",
+    "uniswap",
+    "jupiter",
+    "defi",
+    "mcp"
+  ],
+  "category": "Trading & Finance",
+  "skills": "skills/**/SKILL.md"
+}

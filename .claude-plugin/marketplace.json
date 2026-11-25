@@ -1,0 +1,239 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "crypto-trading-skills",
+  "owner": {
+    "name": "0xethanq",
+    "url": "https://astraquant.tech"
+  },
+  "metadata": {
+    "description": "95+ AI Agent skills for crypto trading across 15 exchanges & DEXs — powered by TradeSkill (astraquant.tech)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tradeskill-hub",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Flagship TradeSkill router covering discovery, SHA-256 verification, and install guidance across 156 crypto trading skills on 15 exchanges & DEXs.",
+      "skills": [
+        "./skills/tradeskill"
+      ]
+    },
+    {
+      "name": "okx-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "OKX CEX spot/perp/options, bots, Earn, and OnchainOS DeFi/DApp/MCP skills (13 bundled)",
+      "skills": [
+        "./skills/okx-cex-trade",
+        "./skills/okx-cex-bot",
+        "./skills/okx-cex-market",
+        "./skills/okx-cex-portfolio",
+        "./skills/okx-cex-smartmoney",
+        "./skills/okx-sentiment-tracker",
+        "./skills/okx-cex-auth",
+        "./skills/okx-cex-skill-mp",
+        "./skills/okx-cex-earn",
+        "./skills/earn-hunter",
+        "./skills/okx-defi",
+        "./skills/okx-dapp-discovery",
+        "./skills/okx-mcp-services"
+      ]
+    },
+    {
+      "name": "binance-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Binance official CEX spot/USD-M futures, P2P, and Onchain Pay skills (3 bundled)",
+      "skills": [
+        "./skills/binance",
+        "./skills/binance-p2p",
+        "./skills/binance-onchain-pay"
+      ]
+    },
+    {
+      "name": "bybit-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Bybit official V5 modular trading skill covering spot, derivatives, and strategies (1 bundled)",
+      "skills": [
+        "./skills/bybit-trading"
+      ]
+    },
+    {
+      "name": "bitget-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Bitget UTA v3 agent trading and Bitget Wallet on-chain/RWA skills (2 bundled)",
+      "skills": [
+        "./skills/bitget",
+        "./skills/bitget-wallet"
+      ]
+    },
+    {
+      "name": "coinbase-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Coinbase official CLI, hosted OAuth MCP, and Wallet MCP skills (3 bundled)",
+      "skills": [
+        "./skills/coinbase-cli",
+        "./skills/coinbase-mcp",
+        "./skills/coinbase-wallet-mcp"
+      ]
+    },
+    {
+      "name": "kraken-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Kraken Rust CLI & MCP skills with zero-auth Paper Trading sandbox, grid, DCA & arbitrage (18 bundled)",
+      "skills": [
+        "./skills/kraken-setup",
+        "./skills/kraken-market-intel",
+        "./skills/kraken-spot-execution",
+        "./skills/kraken-futures-trading",
+        "./skills/kraken-portfolio-intel",
+        "./skills/kraken-order-types",
+        "./skills/kraken-stop-take-profit",
+        "./skills/kraken-twap-execution",
+        "./skills/kraken-grid-trading",
+        "./skills/kraken-dca-strategy",
+        "./skills/kraken-basis-trading",
+        "./skills/kraken-funding-carry",
+        "./skills/kraken-earn-staking",
+        "./skills/kraken-rebalancing",
+        "./skills/kraken-liquidation-guard",
+        "./skills/kraken-paper-strategy",
+        "./skills/kraken-mcp-integration",
+        "./skills/kraken-ws-streaming"
+      ]
+    },
+    {
+      "name": "htx-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "HTX official htx-cli 17-skill suite covering spot, futures, funding, OI, liquidations & TA (17 bundled)",
+      "skills": [
+        "./skills/htx-spot-market",
+        "./skills/htx-spot-trading",
+        "./skills/htx-spot-account",
+        "./skills/htx-futures-market",
+        "./skills/htx-futures-trading",
+        "./skills/htx-futures-account",
+        "./skills/htx-funding-rate",
+        "./skills/htx-market-overview",
+        "./skills/htx-oi-tracker",
+        "./skills/htx-liquidation-stream",
+        "./skills/htx-elite-positioning",
+        "./skills/htx-mark-price",
+        "./skills/htx-settlement",
+        "./skills/htx-derivatives-analyst",
+        "./skills/htx-sentiment-analyst",
+        "./skills/htx-technical-analysis",
+        "./skills/htx-ta-master"
+      ]
+    },
+    {
+      "name": "mexc-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "MEXC official @mexc-ai/cli 16-skill suite for spot, futures, grid, DCA, Convert & Earn (16 bundled)",
+      "skills": [
+        "./skills/mexc-setup",
+        "./skills/mexc-auth",
+        "./skills/mexc-spot-market",
+        "./skills/mexc-spot-kline",
+        "./skills/mexc-spot-trade",
+        "./skills/mexc-spot-account",
+        "./skills/mexc-spot-asset",
+        "./skills/mexc-spot-convert",
+        "./skills/mexc-spot-grid",
+        "./skills/mexc-spot-dca",
+        "./skills/mexc-contract-market",
+        "./skills/mexc-contract-trade",
+        "./skills/mexc-contract-account",
+        "./skills/mexc-earn-flexible",
+        "./skills/mexc-earn-fixed",
+        "./skills/mexc-ws"
+      ]
+    },
+    {
+      "name": "kucoin-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "KuCoin official 7-module read-only REST skills hub (7 bundled)",
+      "skills": [
+        "./skills/kucoin-spot",
+        "./skills/kucoin-futures-trading",
+        "./skills/kucoin-margin-trading",
+        "./skills/kucoin-assets",
+        "./skills/kucoin-convert",
+        "./skills/kucoin-earn",
+        "./skills/kucoin-broker"
+      ]
+    },
+    {
+      "name": "cryptocom-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Crypto.com Exchange cdcx CLI (with paper mode) and Crypto.com App skills (2 bundled)",
+      "skills": [
+        "./skills/cryptocom-exchange",
+        "./skills/cryptocom-app"
+      ]
+    },
+    {
+      "name": "uniswap-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Uniswap Labs DEX swap planner, v3/v4 LP, Trading API, DCA/index bots & v4 hooks (8 bundled)",
+      "skills": [
+        "./skills/uniswap-swap-planner",
+        "./skills/uniswap-liquidity-planner",
+        "./skills/uniswap-swap-integration",
+        "./skills/uniswap-dca-bot",
+        "./skills/uniswap-index-bot",
+        "./skills/uniswap-copy-trade",
+        "./skills/uniswap-v4-hook-generator",
+        "./skills/uniswap-v4-security-foundations"
+      ]
+    },
+    {
+      "name": "jupiter-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Jupiter Solana aggregator skills covering Swap v2, Perps, Lend, DCA/Trigger & VRFD (4 bundled)",
+      "skills": [
+        "./skills/jupiter-integrate",
+        "./skills/jupiter-lend",
+        "./skills/jupiter-swap-migration",
+        "./skills/jupiter-vrfd"
+      ]
+    }
+  ]
+}
