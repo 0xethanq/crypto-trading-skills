@@ -327,6 +327,7 @@ Read full bilingual engineering guides, keyless market workflows, and exchange c
 - [Gate vs Bitget AI Trading Bots Guide: Research Intel vs UTA v3](https://astraquant.tech/en/guides/gate-bitget-ai-trading-bots-guide.html) — Compare Gate modular CLI/MCP trading & intel skills (20% rebate) against Bitget bgc UTA v3 and Bitget Wallet RWA skills (15% rebate).
 - [Coinbase vs Kraken vs Bybit AI Trading Skills Technical Comparison](https://astraquant.tech/en/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — Compare Coinbase (CLI + hosted OAuth MCP + x402), Kraken (18 Rust CLI/MCP skills with zero-key paper trading), and Bybit V5 Trading Skills.
 - [DEX AI Trading Guide: Uniswap vs Jupiter vs OKX OnchainOS Skills](https://astraquant.tech/en/guides/dex-ai-trading-uniswap-vs-jupiter.html) — Compare official DEX AI skills from Uniswap Labs (Swap, v3/v4 LP, DCA, Hook security), Jupiter Solana (Swap v2, Lend, VRFD), and OKX OnchainOS.
+- [24/7 Unattended OKX AI Trading Bot: AstraQuant Setup & 20% Rebate Guide](https://astraquant.tech/en/guides/astraquant-247-okx-ai-trading-bot.html) — Learn how to pair TradeSkill AI exchange skills with sister open-source project AstraQuant (astraquant.top): multi-model AI Council, 17 fail-closed risk gates, and 20% OKX fee rebates.
 
 ---
 
@@ -340,6 +341,12 @@ Active official invitation links listed on [astraquant.tech/en/rebates.html](htt
 | **Gate** | `MCHDBKYF` | **20%** | [Official Invite Link](https://www.gate.com/share/MCHDBKYF) |
 | **Binance** | `1142479220` | **20%** | [Official Invite Link](https://accounts.binance.com/register?ref=1142479220) |
 | **Bitget** | `DY6CJDUY` | **15%** | [Official Invite Link](https://www.bitget.com/referral/register?clacCode=DY6CJDUY&source=events&utmSource=PremierInviter) |
+
+---
+
+## Sister Project: AstraQuant (24/7 OKX AI Trading Bot)
+
+Need unattended 24/7 algorithmic trading instead of manual IDE sessions? Pair these AI skills with **[AstraQuant (astraquant.top)](https://astraquant.top/)** ([`0xethanq/astra-quant-agent`](https://github.com/0xethanq/astra-quant-agent)) — an open-source, self-hosted OKX investment-committee quant engine featuring 17 fail-closed physical risk gates, cloud OCO stop-losses, and integrated 20% OKX fee rebates.
 
 ---
 

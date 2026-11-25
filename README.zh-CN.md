@@ -324,6 +324,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://astraquan
 - [Gate vs Bitget AI 交易与 Bot 机器人指南：投研风控 vs UTA 统一账户](https://astraquant.tech/guides/gate-bitget-ai-trading-bots-guide.html) — 对比 Gate 官方 CEX/Bot/情报风控 20 技能矩阵与 Bitget UTA v3 (bgc CLI) + Bitget Wallet RWA 链上套件，附 Gate 20% 与 Bitget 15% 返佣配置说明。
 - [Coinbase vs Kraken vs Bybit AI 技能对比：OAuth MCP、Rust 模拟盘与 V5 CLI](https://astraquant.tech/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — 深入比较 Coinbase（CLI + 托管 OAuth MCP + x402）、Kraken（Rust 单二进制 + 内置免密 Paper 模拟盘 18 技能）与 Bybit V5 Trading Skill 适用场景。
 - [链上 DEX AI 交易指南：Uniswap vs Jupiter vs OnchainOS 多链技能对比](https://astraquant.tech/guides/dex-ai-trading-uniswap-vs-jupiter.html) — 深度对比 Uniswap Labs（8 个 Swap/v4 LP/DCA/Hook 安全审计技能）、Jupiter（Solana Swap v2/Lend/Perps）与 OKX OnchainOS 链上技能使用边界与私钥安全。
+- [7×24 小时无人值守 OKX AI 量化终端：AstraQuant 部署与 20% 返佣实战指南](https://astraquant.tech/guides/astraquant-247-okx-ai-trading-bot.html) — 详解如何将 TradeSkill（Claude Code / Cursor 交易所技能）与姊妹开源终端 AstraQuant (astraquant.top) 组合：15 分钟周期 AI 投委会协同、17 项物理风控与 20% 永久返佣。
 
 ---
 
@@ -337,6 +338,12 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://astraquan
 | **Gate** | `MCHDBKYF` | **20%** | [官方海外链接](https://www.gate.com/share/MCHDBKYF) · [官方备用链接](https://www.gatewebsite.com/share/MCHDBKYF) |
 | **Binance** | `1142479220` | **20%** | [官方海外链接](https://accounts.binance.com/register?ref=1142479220) · [官方备用链接](https://www.bsmkweb.net/register?ref=1142479220) |
 | **Bitget** | `DY6CJDUY` | **15%** | [官方海外链接](https://www.bitget.com/referral/register?clacCode=DY6CJDUY&source=events&utmSource=PremierInviter) · [官方备用链接](https://www.bitget.ninja/zh-CN/referral/register?clacCode=DY6CJDUY&from=%2Fzh-CN%2Factivity%2Freferral-all-program&source=events&utmSource=PremierInviter) |
+
+---
+
+## 姊妹开源项目：AstraQuant（7×24 OKX AI 量化交易终端）
+
+除了在 Claude Code / Cursor 等助手内按需调用技能，如需 7×24 小时无人值守自动化实盘节点与可视化看板，可部署姊妹项目 **[AstraQuant (astraquant.top)](https://astraquant.top/)**（[`0xethanq/astra-quant-agent`](https://github.com/0xethanq/astra-quant-agent)）—— 原生直连 OKX V5，内置多模型 AI 投委会、17 项 Fail-Closed 物理风控闸门与 20% OKX 官方返佣引导。
 
 ---
 
