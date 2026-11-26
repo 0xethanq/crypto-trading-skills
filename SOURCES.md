@@ -1,6 +1,6 @@
 # TradeSkill — Upstream Sources & Commit Locks
 
-All bundled skills in this repository are extracted from pinned upstream Git commits audited for [TradeSkill](https://astraquant.tech/en/).
+All bundled skills in this repository are extracted from pinned upstream Git commits audited for [TradeSkill](https://tradeskill.si/en/).
 
 | Platform | Bundled / Official-Only | Upstream License | Pinned Commit | Upstream Repository |
 |---|---|---|---|---|

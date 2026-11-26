@@ -1,8 +1,8 @@
 {
   "name": "crypto-trading-skills",
   "repository": "https://github.com/0xethanq/crypto-trading-skills",
-  "homepage": "https://astraquant.tech",
-  "generatedAt": "2026-11-25T13:17:20Z",
+  "homepage": "https://tradeskill.si",
+  "generatedAt": "2026-11-26T10:08:51Z",
   "stats": {
     "platforms": 15,
     "bundledSkills": 95,
@@ -29,8 +29,8 @@
       "official": "https://www.okx.com/zh-hans/agent-tradekit/skills",
       "bundledCount": 13,
       "officialOnlyCount": 5,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/okx.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/okx.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/okx.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/okx.html"
     },
     {
       "id": "gate",
@@ -48,8 +48,8 @@
       "official": "https://www.gate.com/zh/gate-for-ai-agent",
       "bundledCount": 0,
       "officialOnlyCount": 20,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/gate.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/gate.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/gate.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/gate.html"
     },
     {
       "id": "binance",
@@ -67,8 +67,8 @@
       "official": "https://github.com/binance/binance-skills-hub",
       "bundledCount": 3,
       "officialOnlyCount": 18,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/binance.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/binance.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/binance.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/binance.html"
     },
     {
       "id": "bybit",
@@ -86,8 +86,8 @@
       "official": "https://www.bybit.com/en/ai",
       "bundledCount": 1,
       "officialOnlyCount": 1,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/bybit.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/bybit.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/bybit.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/bybit.html"
     },
     {
       "id": "bitget",
@@ -105,8 +105,8 @@
       "official": "https://www.bitget.com/activity-hub/agent-hub",
       "bundledCount": 2,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/bitget.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/bitget.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/bitget.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/bitget.html"
     },
     {
       "id": "coinbase",
@@ -124,8 +124,8 @@
       "official": "https://docs.cdp.coinbase.com/coinbase-cli/skill.md",
       "bundledCount": 3,
       "officialOnlyCount": 1,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/coinbase.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/coinbase.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/coinbase.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/coinbase.html"
     },
     {
       "id": "kraken",
@@ -143,8 +143,8 @@
       "official": "https://github.com/krakenfx/kraken-cli",
       "bundledCount": 18,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/kraken.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/kraken.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/kraken.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/kraken.html"
     },
     {
       "id": "htx",
@@ -162,8 +162,8 @@
       "official": "https://github.com/htx-exchange/htx-skills-hub",
       "bundledCount": 17,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/htx.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/htx.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/htx.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/htx.html"
     },
     {
       "id": "mexc",
@@ -181,8 +181,8 @@
       "official": "https://github.com/mexcdevelop/mexc-cli",
       "bundledCount": 16,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/mexc.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/mexc.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/mexc.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/mexc.html"
     },
     {
       "id": "kucoin",
@@ -200,8 +200,8 @@
       "official": "https://github.com/Kucoin/kucoin-skills-hub",
       "bundledCount": 7,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/kucoin.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/kucoin.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/kucoin.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/kucoin.html"
     },
     {
       "id": "cryptocom",
@@ -219,8 +219,8 @@
       "official": "https://github.com/crypto-com/crypto-agent-trading",
       "bundledCount": 2,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/cryptocom.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/cryptocom.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/cryptocom.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/cryptocom.html"
     },
     {
       "id": "bingx",
@@ -238,8 +238,8 @@
       "official": "https://bingx-api.github.io/api-ai-skills/",
       "bundledCount": 0,
       "officialOnlyCount": 14,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/bingx.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/bingx.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/bingx.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/bingx.html"
     },
     {
       "id": "bitmart",
@@ -257,8 +257,8 @@
       "official": "https://github.com/bitmartexchange/bitmart-skills",
       "bundledCount": 0,
       "officialOnlyCount": 3,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/bitmart.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/bitmart.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/bitmart.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/bitmart.html"
     },
     {
       "id": "uniswap",
@@ -276,8 +276,8 @@
       "official": "https://github.com/Uniswap/uniswap-ai",
       "bundledCount": 8,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/uniswap.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/uniswap.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/uniswap.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/uniswap.html"
     },
     {
       "id": "jupiter",
@@ -295,8 +295,8 @@
       "official": "https://github.com/jup-ag/agent-skills",
       "bundledCount": 4,
       "officialOnlyCount": 0,
-      "siteUrlEn": "https://astraquant.tech/en/exchanges/jupiter.html",
-      "siteUrlZh": "https://astraquant.tech/exchanges/jupiter.html"
+      "siteUrlEn": "https://tradeskill.si/en/exchanges/jupiter.html",
+      "siteUrlZh": "https://tradeskill.si/exchanges/jupiter.html"
     }
   ],
   "bundledSkills": [
@@ -309,11 +309,11 @@
       "version": "1.0.0",
       "titleEn": "TradeSkill Router",
       "titleZh": "TradeSkill 全平台路由总技能",
-      "descriptionEn": "Discover, verify, and install 156 official crypto trading AI skills across 15 exchanges and DEXs (OKX, Gate, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, BingX, BitMart, Uniswap, Jupiter) from TradeSkill (astraquant.tech) or GitHub.",
+      "descriptionEn": "Discover, verify, and install 156 official crypto trading AI skills across 15 exchanges and DEXs (OKX, Gate, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, BingX, BitMart, Uniswap, Jupiter) from TradeSkill (tradeskill.si) or GitHub.",
       "descriptionZh": "探索、校验并安装覆盖 15 家主流交易所与 DEX 的 156 个官方加密货币 AI 交易技能。",
       "upstream": "https://github.com/0xethanq/crypto-trading-skills/tree/main/skills/tradeskill",
-      "siteUrlEn": "https://astraquant.tech/en/",
-      "siteUrlZh": "https://astraquant.tech/",
+      "siteUrlEn": "https://tradeskill.si/en/",
+      "siteUrlZh": "https://tradeskill.si/",
       "attribution": "router"
     },
     {
@@ -328,8 +328,8 @@
       "descriptionEn": "Order management across spot, perpetual, futures, options, and event contracts.",
       "descriptionZh": "现货、永续、交割、期权及可用站点的事件合约订单管理。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-trade.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-trade.html",
       "attribution": "okx-ai-builder-tag"
     },
     {
@@ -344,8 +344,8 @@
       "descriptionEn": "Create and manage grid, DCA, smart portfolio, and recurring buy strategies.",
       "descriptionZh": "创建与管理网格、DCA、智能组合及定投策略。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-bot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-bot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-bot.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-bot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-bot.html",
       "attribution": "okx-ai-builder-tag"
     },
     {
@@ -360,8 +360,8 @@
       "descriptionEn": "Query prices, orderbooks, K-lines, funding rates, and technical indicators without API keys.",
       "descriptionZh": "查询报价、盘口、K 线、资金费率与技术指标，不需要交易凭证。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-market.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-market.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -376,8 +376,8 @@
       "descriptionEn": "Inspect balances, positions, PnL, fee tiers, and perform account fund transfers.",
       "descriptionZh": "查看余额、持仓、盈亏和费率，也包含资金划转等写操作。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-portfolio",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-portfolio.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-portfolio.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-portfolio.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-portfolio.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -392,8 +392,8 @@
       "descriptionEn": "Track top trader leaderboards, historical fills, open positions, and aggregated signals.",
       "descriptionZh": "查询交易员榜单、历史成交、持仓与聚合信号。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-smartmoney",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-smartmoney.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-smartmoney.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-smartmoney.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-smartmoney.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -408,8 +408,8 @@
       "descriptionEn": "Fetch crypto news, trending assets, market sentiment, and macro economic calendars.",
       "descriptionZh": "查询加密新闻、热门资产、市场情绪与经济日历。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-sentiment-tracker",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-sentiment-tracker.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-sentiment-tracker.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-sentiment-tracker.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-sentiment-tracker.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -424,8 +424,8 @@
       "descriptionEn": "Configure official CLI login profiles and local API credentials safely on your device.",
       "descriptionZh": "在用户自己的设备上配置官方 CLI 登录或 API 凭证。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-auth",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-auth.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-auth.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-auth.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-auth.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -440,8 +440,8 @@
       "descriptionEn": "Search, install, update skills and verify official marketplace signatures via CLI.",
       "descriptionZh": "通过官方 CLI 搜索、安装、更新技能并校验官方市场的签名。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-skill-mp",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-skill-mp.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-skill-mp.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-skill-mp.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-skill-mp.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -456,8 +456,8 @@
       "descriptionEn": "Query and manage Simple Earn, Flash Earn, and on-chain yield products.",
       "descriptionZh": "查询和管理可用的简单赚币、闪赚、链上赚币等产品。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/okx-cex-earn",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-cex-earn.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-cex-earn.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-cex-earn.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-cex-earn.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -472,8 +472,8 @@
       "descriptionEn": "Monitor Flash Earn, fixed, and flexible yield openings with optional scheduled alerts.",
       "descriptionZh": "监控闪赚、定期和活期机会，可选定时通知；不是自动成交模块。",
       "upstream": "https://github.com/okx/agent-skills/tree/3cff92b6a5ced87422fbfe0ce4d7237c026589f9/skills/earn-hunter",
-      "siteUrlEn": "https://astraquant.tech/en/skills/earn-hunter.html",
-      "siteUrlZh": "https://astraquant.tech/skills/earn-hunter.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/earn-hunter.html",
+      "siteUrlZh": "https://tradeskill.si/skills/earn-hunter.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -488,8 +488,8 @@
       "descriptionEn": "Discover and manage multi-chain staking, lending, LP pools, and APY/TVL analytics via OKX OnchainOS.",
       "descriptionZh": "发现与管理 OKX 聚合的多链 DeFi 质押、借贷、流动性池及 APY / TVL 历史收益与持仓。",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-defi",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-defi.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-defi.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-defi.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-defi.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -504,8 +504,8 @@
       "descriptionEn": "Search and route multi-chain DApps (Aave, Hyperliquid, Polymarket, pump.fun) without signing.",
       "descriptionZh": "检索并路由多链第三方 DApp 能力（Aave、Hyperliquid、Polymarket、pump.fun 等），不包含签名广播。",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-dapp-discovery",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-dapp-discovery.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-dapp-discovery.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-dapp-discovery.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-dapp-discovery.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -520,8 +520,8 @@
       "descriptionEn": "Query NewsLiquid / 6551 MCP feeds and X crypto intelligence via wallet credentials.",
       "descriptionZh": "通过钱包凭据调用 NewsLiquid / 6551 MCP 情报与推特加密资讯数据源，辅助链上研究。",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-mcp-services",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-mcp-services.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-mcp-services.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-mcp-services.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-mcp-services.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -536,8 +536,8 @@
       "descriptionEn": "Spot, USD-M futures, and Convert via binance-cli (excludes Binance Wallet / Binance.US).",
       "descriptionZh": "通过 binance-cli 做现货、U 本位合约和闪兑。不是 Binance Wallet 或 Binance.US。",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/binance",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -552,8 +552,8 @@
       "descriptionEn": "Query P2P buy/sell offers, payment methods, order history, appeals, and merchant ads.",
       "descriptionZh": "查询 P2P 买卖挂单报价、支付方式、历史订单、申诉进度与商家广告管理。",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/p2p",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-p2p.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-p2p.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-p2p.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-p2p.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -568,8 +568,8 @@
       "descriptionEn": "Real-time fiat quotes, payment channels, and direct withdrawal orders to on-chain wallets.",
       "descriptionZh": "法币入金实时报价、支付方式查询与预下单直提外部链上钱包。",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/onchain-pay",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-onchain-pay.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-onchain-pay.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-onchain-pay.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-onchain-pay.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -584,8 +584,8 @@
       "descriptionEn": "Bybit V5 market data, spot, derivatives, strategies, and account ops with modular specs.",
       "descriptionZh": "Bybit V5 的行情、现货、衍生品、策略与账户操作，含模块说明文件，装机即可用。",
       "upstream": "https://github.com/bybit-exchange/skills/tree/dc98490ad49304c747252abd4ccec1e9978f07a7",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bybit-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bybit-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/bybit-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bybit-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -600,8 +600,8 @@
       "descriptionEn": "Operate Bitget Unified Trading Account via bgc CLI across quotes, spot, futures, and demo.",
       "descriptionZh": "用 bgc 命令行操作 Bitget 统一交易账户，覆盖行情、现货、合约和账户，附模拟盘说明。",
       "upstream": "https://github.com/Bitget-AI/agent-skill/tree/55747b8a33236bbb4dcabffe22c42d302178268c/skills",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bitget-agent-skill.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bitget-agent-skill.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/bitget-agent-skill.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bitget-agent-skill.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -616,8 +616,8 @@
       "descriptionEn": "Multi-chain ETH/SOL/BSC/Base quotes, Swap routing, token security checks, K-lines, and RWA stocks.",
       "descriptionZh": "覆盖 ETH/SOL/BSC/Base 多链行情、Swap 报价、K 线榜单、代币安全审计与 RWA 美股交易。",
       "upstream": "https://github.com/bitget-wallet-ai-lab/bitget-wallet-skill/tree/9175a19d9a71db24de97ef7e4b2f060af5e8fe8b",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bitget-wallet.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bitget-wallet.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/bitget-wallet.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bitget-wallet.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -632,8 +632,8 @@
       "descriptionEn": "Run local portfolio queries, market data, spot trades, convert, and perps checks via @coinbase/coinbase-cli.",
       "descriptionZh": "通过 @coinbase/coinbase-cli 与 CDP API Key 本地执行投资组合查询、行情、交易、闪兑与衍生品风控。",
       "upstream": "https://github.com/coinbase/agents/tree/6076c3e26702359484f986ca89c48770f78e3333/skills/coinbase-cli",
-      "siteUrlEn": "https://astraquant.tech/en/skills/coinbase-cli.html",
-      "siteUrlZh": "https://astraquant.tech/skills/coinbase-cli.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/coinbase-cli.html",
+      "siteUrlZh": "https://tradeskill.si/skills/coinbase-cli.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -648,8 +648,8 @@
       "descriptionEn": "Connect natively via OAuth to Coinbase Hosted MCP for remote trading, portfolio, and paid research tools.",
       "descriptionZh": "通过原生 OAuth 连接 Coinbase 官方托管 MCP（agents.coinbase.com/mcp），远程调用交易、组合与付费研报工具。",
       "upstream": "https://github.com/coinbase/agents/tree/6076c3e26702359484f986ca89c48770f78e3333/skills/coinbase-mcp",
-      "siteUrlEn": "https://astraquant.tech/en/skills/coinbase-mcp.html",
-      "siteUrlZh": "https://astraquant.tech/skills/coinbase-mcp.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/coinbase-mcp.html",
+      "siteUrlZh": "https://tradeskill.si/skills/coinbase-mcp.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -664,8 +664,8 @@
       "descriptionEn": "Link AI assistants to Coinbase Wallet Account for balances, transfers, on-chain swaps, signing & x402.",
       "descriptionZh": "为 AI 助手接入 Coinbase Wallet Account，支持余额查询、代币发送、链上兑换、消息签名与 x402 支付。",
       "upstream": "https://github.com/coinbase/agents/tree/6076c3e26702359484f986ca89c48770f78e3333/skills/wallet-mcp",
-      "siteUrlEn": "https://astraquant.tech/en/skills/coinbase-wallet-mcp.html",
-      "siteUrlZh": "https://astraquant.tech/skills/coinbase-wallet-mcp.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/coinbase-wallet-mcp.html",
+      "siteUrlZh": "https://tradeskill.si/skills/coinbase-wallet-mcp.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -680,8 +680,8 @@
       "descriptionEn": "Install single-binary kraken / kraken-mcp in minutes and initialize zero-auth Paper Trading workspaces.",
       "descriptionZh": "5 分钟安装单二进制 kraken / kraken-mcp、创建免密 Paper Trading 模拟盘工作区并配置凭证。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-setup",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-setup.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-setup.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-setup.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-setup.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -696,8 +696,8 @@
       "descriptionEn": "Fetch low-noise Kraken spot & futures tickers, OHLC candles, orderbook depth, and recent trades with no key.",
       "descriptionZh": "免密拉取 Kraken 现货与合约 Ticker、OHLC K 线、盘口深度与近期成交快照。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-market-intel",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-market-intel.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-market-intel.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-market-intel.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-market-intel.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -712,8 +712,8 @@
       "descriptionEn": "Verified Kraken spot execution workflow featuring pre-flight checks, confirmation gates, and fill audit.",
       "descriptionZh": "带参数前置校验、二次确认闸门与成交后复核的 Kraken 现货标准下单技能。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-spot-execution",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-spot-execution.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-spot-execution.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-spot-execution.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-spot-execution.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -728,8 +728,8 @@
       "descriptionEn": "Manage Kraken Futures open/close positions, margin, leverage settings, and full order lifecycles.",
       "descriptionZh": "覆盖 Kraken Futures 合约开平仓、保证金调整、杠杆设置与全生命周期委托管理。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-futures-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-futures-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-futures-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-futures-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-futures-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -744,8 +744,8 @@
       "descriptionEn": "Aggregate Kraken account equity, trade attribution, realized/unrealized PnL, and report exports.",
       "descriptionZh": "汇总 Kraken 账户净值、历史成交归因、已实现/浮动盈亏并支持报表导出。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-portfolio-intel",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-portfolio-intel.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-portfolio-intel.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-portfolio-intel.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-portfolio-intel.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -760,8 +760,8 @@
       "descriptionEn": "Master Kraken spot & futures market, limit, Post-Only, Iceberg, and Time-in-Force flags.",
       "descriptionZh": "详解 Kraken 现货与期货市价、限价、Post-Only、Iceberg、Time-in-Force 等全部委托参数。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-order-types",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-order-types.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-order-types.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-order-types.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-order-types.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -776,8 +776,8 @@
       "descriptionEn": "Attach stop-loss triggers, take-profit limits, and trailing exits to bound Kraken position risk.",
       "descriptionZh": "为 Kraken 持仓配置触发止损、限价止盈及跟踪风控退出条件，严格限制单笔风险敞口。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-stop-take-profit",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-stop-take-profit.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-stop-take-profit.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-stop-take-profit.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-stop-take-profit.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -792,8 +792,8 @@
       "descriptionEn": "Split large orders over fixed time intervals to minimize market impact and slippage on Kraken.",
       "descriptionZh": "将大额委托按时间加权切分拆单执行，显著降低盘口滑点与市场冲击成本。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-twap-execution",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-twap-execution.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-twap-execution.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-twap-execution.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-twap-execution.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -808,8 +808,8 @@
       "descriptionEn": "Deploy arithmetic or geometric buy/sell grids across defined ranges to capture range volatility.",
       "descriptionZh": "在指定价格区间内自动铺设等差/等比买卖网格挂单，高抛低吸捕获震荡收益。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-grid-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-grid-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-grid-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-grid-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-grid-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -824,8 +824,8 @@
       "descriptionEn": "Execute scheduled fixed-amount buys, track cost basis, and monitor cumulative DCA ROI on Kraken.",
       "descriptionZh": "按周期自动执行定额买入、记录平均持仓成本并持续追踪定投收益率表现。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-dca-strategy",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-dca-strategy.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-dca-strategy.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-dca-strategy.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-dca-strategy.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -840,8 +840,8 @@
       "descriptionEn": "Monitor spot-futures spreads and construct Delta-neutral long spot + short futures yield positions.",
       "descriptionZh": "监测现货与期货基差溢价，构建现货做多 + 期货做空的 Delta 中性套利头寸。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-basis-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-basis-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-basis-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-basis-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-basis-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -856,8 +856,8 @@
       "descriptionEn": "Scan elevated perpetual funding rates and hedge directional exposure while collecting carry yield.",
       "descriptionZh": "扫描高资金费率永续合约标的，在收取费率一侧建仓并对冲方向性风险。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-funding-carry",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-funding-carry.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-funding-carry.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-funding-carry.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-funding-carry.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -872,8 +872,8 @@
       "descriptionEn": "Compare on-chain Staking and Earn APYs on Kraken, manage allocations, and audit payout history.",
       "descriptionZh": "对比 Kraken 链上 Staking 与赚币产品年化利率，管理质押配置并追踪收益明细。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-earn-staking",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-earn-staking.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-earn-staking.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-earn-staking.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-earn-staking.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -888,8 +888,8 @@
       "descriptionEn": "Detect weight drift across multi-asset Kraken holdings and compute cost-capped rebalance orders.",
       "descriptionZh": "按设定权重监控多币种仓位偏离度，生成调仓清单并控制单次调仓换手成本。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-rebalancing",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-rebalancing.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-rebalancing.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-rebalancing.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-rebalancing.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -904,8 +904,8 @@
       "descriptionEn": "Monitor futures margin ratios and distance-to-liquidation to trigger timely de-risking alerts.",
       "descriptionZh": "实时监测合约保证金率与强平线距离，在风险临近时自动触发减仓或紧急风控预案。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-liquidation-guard",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-liquidation-guard.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-liquidation-guard.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-liquidation-guard.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-liquidation-guard.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -920,8 +920,8 @@
       "descriptionEn": "Run simulated strategies and replays locally on live Kraken market feeds with zero funds or keys.",
       "descriptionZh": "基于 Kraken 实时真实行情在本地沙盒运行模拟策略与回放评估，无需真实资金或密钥。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-paper-strategy",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-paper-strategy.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-paper-strategy.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-paper-strategy.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-paper-strategy.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -936,8 +936,8 @@
       "descriptionEn": "Wire kraken-mcp directly into Claude Code, Cursor, and Codex without shell wrapper overhead.",
       "descriptionZh": "将 kraken-mcp 原生接入 Claude Code、Cursor 与 Codex，免除子进程封装直接调用工具。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-mcp-integration",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-mcp-integration.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-mcp-integration.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-mcp-integration.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-mcp-integration.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -952,8 +952,8 @@
       "descriptionEn": "Subscribe to Kraken spot & futures WebSocket trades, L2 orderbooks, candles, and private updates.",
       "descriptionZh": "订阅 Kraken 现货与合约 WebSocket 逐笔成交、增量盘口、K 线与私有委托更新流。",
       "upstream": "https://github.com/krakenfx/kraken-cli/tree/671cdd7f1483409f7b45554725f2a07ac5abd33f/skills/kraken-ws-streaming",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kraken-ws-streaming.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kraken-ws-streaming.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kraken-ws-streaming.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kraken-ws-streaming.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -968,8 +968,8 @@
       "descriptionEn": "Query HTX spot tickers, K-lines, orderbooks, trades, and symbol rules via htx-cli without keys.",
       "descriptionZh": "免密通过 htx-cli 查询火币 HTX 现货聚合行情、K 线、盘口深度、逐笔成交与交易规则。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/spot-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-spot-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-spot-market.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-spot-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-spot-market.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -984,8 +984,8 @@
       "descriptionEn": "Execute limit/market spot orders, cancels, edits, order lookups & margin borrows with confirmation.",
       "descriptionZh": "强制人工参数确认后执行 HTX 现货限价/市价下单、撤单、改单、订单查询与杠杆借贷。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/spot-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-spot-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-spot-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-spot-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-spot-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1000,8 +1000,8 @@
       "descriptionEn": "Inspect HTX spot balances, valuation, ledger history, and transfer assets between spot & futures.",
       "descriptionZh": "查询火币 HTX 现货余额、持仓估值与流水，并支持现货与合约账户间资产划转。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/spot-account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-spot-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-spot-account.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-spot-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-spot-account.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1016,8 +1016,8 @@
       "descriptionEn": "Query HTX USDT-M perpetual contracts, index prices, K-lines, BBO & orderbook depth with no keys.",
       "descriptionZh": "免密查询 HTX USDT-M 永续合约信息、指数价格、K 线、最优挂单与深度盘口。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/futures-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-futures-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-futures-market.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-futures-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-futures-market.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1032,8 +1032,8 @@
       "descriptionEn": "Manage HTX perpetual opens, closes, TP/SL, trigger orders, edits & cancels with write guardrails.",
       "descriptionZh": "覆盖 HTX 永续合约开仓、平仓、止盈止损、计划委托、改单与撤单（写操作二次确认）。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/futures-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-futures-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-futures-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-futures-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-futures-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1048,8 +1048,8 @@
       "descriptionEn": "Inspect HTX futures equity, open positions, leverage tiers, margin factors & account mode.",
       "descriptionZh": "查询 HTX 永续合约权益余额、当前持仓、杠杆梯度、调整系数与统一账户模式切换。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/futures-account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-futures-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-futures-account.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-futures-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-futures-account.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1064,8 +1064,8 @@
       "descriptionEn": "Batch-scan current, historical & estimated funding rates across all HTX USDT-M perpetuals.",
       "descriptionZh": "批量扫描全市场 HTX 永续当前资金费率、历史费率记录及下期预估费率 K 线。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/funding-rate",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-funding-rate.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-funding-rate.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-funding-rate.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-funding-rate.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1080,8 +1080,8 @@
       "descriptionEn": "Scan top gainers/losers, volume spikes, breadth, and sector rotations across HTX spot & futures.",
       "descriptionZh": "扫描火币 HTX 现货与合约全市场领涨领跌榜、放量异动、市场宽度与板块轮动信号。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/market-overview",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-market-overview.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-market-overview.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-market-overview.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-market-overview.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1096,8 +1096,8 @@
       "descriptionEn": "Monitor HTX USDT-M open interest snapshots and sudden OI build-ups across perpetual pairs.",
       "descriptionZh": "实时监测 HTX USDT-M 永续合约总持仓量快照与历史 OI 增仓飙升趋势。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/oi-tracker",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-oi-tracker.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-oi-tracker.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-oi-tracker.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-oi-tracker.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1112,8 +1112,8 @@
       "descriptionEn": "Query recent HTX perpetual forced liquidations to spot long/short squeezes and liquidity zones.",
       "descriptionZh": "查询 HTX 永续近期强平爆仓单，捕捉多空踩踏挤压（Squeeze）与流动性密集区。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/liquidation-stream",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-liquidation-stream.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-liquidation-stream.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-liquidation-stream.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-liquidation-stream.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1128,8 +1128,8 @@
       "descriptionEn": "Track HTX top trader long/short positioning by account count and position size.",
       "descriptionZh": "追踪 HTX 精英交易员按账户数与按持仓量统计的多空比例，识别头部资金风向。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/elite-positioning",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-elite-positioning.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-elite-positioning.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-elite-positioning.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-elite-positioning.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1144,8 +1144,8 @@
       "descriptionEn": "Fetch HTX perpetual mark prices, premium index & basis K-lines for risk & arbitrage pricing.",
       "descriptionZh": "拉取 HTX 永续标记价格、溢价指数与基差 K 线序列，用于强平保护与套利定价参考。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/mark-price",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-mark-price.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-mark-price.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-mark-price.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-mark-price.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1160,8 +1160,8 @@
       "descriptionEn": "Inspect HTX estimated delivery prices, settlement history, and insurance fund balance trends.",
       "descriptionZh": "查看 HTX USDT-M 预估交割价、历史结算记录以及平台风险准备金余额走势。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/settlement",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-settlement.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-settlement.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-settlement.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-settlement.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1176,8 +1176,8 @@
       "descriptionEn": "Synthesize funding, OI, elite ratios, liquidations & basis into crowding and squeeze diagnoses.",
       "descriptionZh": "融合资金费率、OI、精英多空比、爆仓数据与基差，输出多空挤压方向与拥挤度判断。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/derivatives-analyst",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-derivatives-analyst.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-derivatives-analyst.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-derivatives-analyst.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-derivatives-analyst.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1192,8 +1192,8 @@
       "descriptionEn": "Combine Fear & Greed index, whale positioning & market breadth into quantified sentiment reports.",
       "descriptionZh": "结合恐慌贪婪指数、大户持仓与全市场涨跌分布，生成量化的市场情绪诊断结论。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/sentiment-analyst",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-sentiment-analyst.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-sentiment-analyst.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-sentiment-analyst.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-sentiment-analyst.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1208,8 +1208,8 @@
       "descriptionEn": "Compute 51 technical indicators, 12 candle patterns, 5 BTC cycle metrics & divergence alerts locally.",
       "descriptionZh": "在本地计算 51 种技术指标、12 种 K 线形态、5 大 BTC 周期指标并自动检测量价背离。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/technical-analysis",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-technical-analysis.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-technical-analysis.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-technical-analysis.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-technical-analysis.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1224,8 +1224,8 @@
       "descriptionEn": "Compute a 0–100 score weighted 50% price/volume + 30% derivatives + 20% cycle with strategy notes.",
       "descriptionZh": "按价量 50% + 衍生品 30% + 周期 20% 权重输出 0–100 综合技术评分与区间策略解读。",
       "upstream": "https://github.com/htx-exchange/htx-skills-hub/tree/1c04d78d5e37b1ec729c3b151d6cda8081174146/skills/htx/ta-master",
-      "siteUrlEn": "https://astraquant.tech/en/skills/htx-ta-master.html",
-      "siteUrlZh": "https://astraquant.tech/skills/htx-ta-master.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/htx-ta-master.html",
+      "siteUrlZh": "https://tradeskill.si/skills/htx-ta-master.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1240,8 +1240,8 @@
       "descriptionEn": "Install or upgrade @mexc-ai/cli, run diagnostics, configure key profiles & register MCP.",
       "descriptionZh": "安装升级 @mexc-ai/cli、运行健康检查、配置 API Key 档案与可选 MCP 注册。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-setup.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-setup.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-setup.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-setup.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1256,8 +1256,8 @@
       "descriptionEn": "Guide to configuring and repairing signed MEXC OpenAPI credentials and local CLI profiles.",
       "descriptionZh": "指引在本地安全配置及修复 MEXC OpenAPI 签名凭据与身份 Profile。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/mexc-auth",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-auth.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-auth.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-auth.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-auth.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1272,8 +1272,8 @@
       "descriptionEn": "Fetch full MEXC symbol lists, real-time spot tickers, new listings & risk tags without keys.",
       "descriptionZh": "免密查询抹茶 MEXC 全市场交易对清单、实时行情 Ticker、新币信息与风险提示。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/marketv2",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-market.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-market.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1288,8 +1288,8 @@
       "descriptionEn": "Fetch multi-timeframe MEXC spot OHLCV candles and earliest lookback boundaries with no API key.",
       "descriptionZh": "免密拉取 MEXC 现货多周期蜡烛图 K 线数据，支持查询最早可回溯时间窗口。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/kline",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-kline.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-kline.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-kline.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-kline.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1304,8 +1304,8 @@
       "descriptionEn": "Place limit/market spot orders with TP/SL, cancel, run dry-run simulations & inspect fills.",
       "descriptionZh": "支持 MEXC 现货限价/市价委托（含附加 TP/SL）、撤单、只读模拟演练及成交明细查询。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-trade.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-trade.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1320,8 +1320,8 @@
       "descriptionEn": "Subscribe to private MEXC WebSocket feeds for live order fills and spot balance updates.",
       "descriptionZh": "通过签名 WebSocket 订阅个人 MEXC 现货账户的最新成交实时推送与余额变动。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-account.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-account.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1336,8 +1336,8 @@
       "descriptionEn": "Aggregate balances across MEXC spot, contract, OTC, and strategy accounts in one overview.",
       "descriptionZh": "汇总 MEXC 现货、合约、OTC 与策略各子账户余额与资产明细统计。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/asset",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-asset.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-asset.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-asset.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-asset.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1352,8 +1352,8 @@
       "descriptionEn": "Query eligible tokens and convert between spot assets instantly at locked zero-slippage quotes.",
       "descriptionZh": "查询可闪兑资产并按锁定报价零滑点将一种代币即时兑换为另一种代币。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/convert",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-convert.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-convert.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-convert.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-convert.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1368,8 +1368,8 @@
       "descriptionEn": "Fetch AI-recommended grid parameters plus create, monitor, and stop automated spot range bots.",
       "descriptionZh": "查询 MEXC AI 推荐的现货网格参数，创建、监控并终止区间自动化低买高卖策略。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/grid",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-grid.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-grid.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-grid.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-grid.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1384,8 +1384,8 @@
       "descriptionEn": "Check supported DCA pairs, historical ROI, and manage recurring spot auto-invest plans.",
       "descriptionZh": "查看支持定投的交易对与历史盈亏收益，全自动管理 MEXC 现货定投计划。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/spot/dca",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-spot-dca.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-spot-dca.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-spot-dca.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-spot-dca.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1400,8 +1400,8 @@
       "descriptionEn": "Query MEXC contract specs, fair/index prices, funding rates, depth & 24h stats without keys.",
       "descriptionZh": "免密查询 MEXC 合约规格、合理/指数价格、资金费率、深度盘口与 24h 行情统计。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/contract/market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-contract-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-contract-market.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-contract-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-contract-market.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1416,8 +1416,8 @@
       "descriptionEn": "Place MEXC limit/market futures orders, trigger plans, SL/TP & batch edits/cancellations.",
       "descriptionZh": "支持 MEXC 合约限价/市价下单、计划委托、止盈止损参数设定与批量撤改单。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/contract/trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-contract-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-contract-trade.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-contract-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-contract-trade.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1432,8 +1432,8 @@
       "descriptionEn": "Inspect MEXC futures equity, position margin risk, transfer records, and trade summaries.",
       "descriptionZh": "查询 MEXC 合约账户权益快照、持仓风险、资金划转流水与成交统计。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/contract/account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-contract-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-contract-account.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-contract-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-contract-account.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1448,8 +1448,8 @@
       "descriptionEn": "Toggle auto-stake settings, inspect interest rewards & check flexible savings on MEXC.",
       "descriptionZh": "管理 MEXC 活期理财产品的自动质押开关、利息收益与活期余额查询。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/financial-openapi/flexible",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-earn-flexible.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-earn-flexible.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-earn-flexible.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-earn-flexible.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1464,8 +1464,8 @@
       "descriptionEn": "Browse locked-term yields, lock durations, subscription orders & reward payouts on MEXC.",
       "descriptionZh": "查询 MEXC 定期理财产品列表、锁仓期限利率、申购订单与收益明细。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/financial-openapi/fixed",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-earn-fixed.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-earn-fixed.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-earn-fixed.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-earn-fixed.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1480,8 +1480,8 @@
       "descriptionEn": "Line caps, JSON Lines streaming output, and dry-run conventions for all MEXC CLI WebSocket feeds.",
       "descriptionZh": "定义 MEXC CLI 全部 WebSocket 实时订阅流的行数限制、JSON Lines 输出与 Dry-Run 规范。",
       "upstream": "https://github.com/mexcdevelop/mexc-cli/tree/c2b63fd04efd64c229851d29141df864896a83c9/skills/mexc-ws",
-      "siteUrlEn": "https://astraquant.tech/en/skills/mexc-ws.html",
-      "siteUrlZh": "https://astraquant.tech/skills/mexc-ws.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/mexc-ws.html",
+      "siteUrlZh": "https://tradeskill.si/skills/mexc-ws.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1496,8 +1496,8 @@
       "descriptionEn": "Inspect KuCoin spot tickers, HF orders, stop orders & OCO history (read-only GET only).",
       "descriptionZh": "查询库币 KuCoin 现货实时行情、高频委托单、止损单及 OCO 挂单历史（当前仅支持只读 GET 接口）。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/spot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-spot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-spot.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-spot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-spot.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1512,8 +1512,8 @@
       "descriptionEn": "Query KuCoin Futures contracts, position risk, active orders & funding history (read-only GET).",
       "descriptionZh": "查询 KuCoin Futures 合约行情、当前持仓风险、委托列表与历史资金费率明细（只读 GET）。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/futures-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-futures-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-futures-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-futures-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-futures-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1528,8 +1528,8 @@
       "descriptionEn": "Inspect KuCoin cross/isolated margin rates, borrow/repay ledgers, and risk limits (read-only GET).",
       "descriptionZh": "查看 KuCoin 全仓/逐仓杠杆行情、借还币流水、借贷利率及风控限额信息（只读 GET）。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/margin-trading",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-margin-trading.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-margin-trading.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-margin-trading.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-margin-trading.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1544,8 +1544,8 @@
       "descriptionEn": "Aggregate KuCoin balances, ledgers, deposits/withdrawals, sub-accounts & VIP fee levels.",
       "descriptionZh": "汇总 KuCoin 多账户余额、账单流水、充提记录、子账户明细及账户当前手续费等级。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/assets",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-assets.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-assets.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-assets.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-assets.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1560,8 +1560,8 @@
       "descriptionEn": "Fetch instant KuCoin Convert rate estimates and inspect past swap orders and statuses.",
       "descriptionZh": "获取 KuCoin Convert 即时兑价估算，查询历史闪兑订单详情与兑换状态。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/convert",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-convert.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-convert.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-convert.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-convert.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1576,8 +1576,8 @@
       "descriptionEn": "Browse KuCoin Simple Earn flexible/staking & structured yields alongside subscription records.",
       "descriptionZh": "浏览 KuCoin Simple Earn 活期/质押与结构化理财产品收益率及个人申购记录。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/earn",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-earn.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-earn.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-earn.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-earn.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1592,8 +1592,8 @@
       "descriptionEn": "Query KuCoin Broker referrals, rebate breakdowns, Broker Pro clients & stats (read-only GET).",
       "descriptionZh": "查询 KuCoin Broker 邀请关系、佣金返还明细、Broker Pro 客户及渠道统计（只读 GET）。",
       "upstream": "https://github.com/Kucoin/kucoin-skills-hub/tree/a9bda62ce7f6cbf1d848b48eb489781fe874f962/skills/broker",
-      "siteUrlEn": "https://astraquant.tech/en/skills/kucoin-broker.html",
-      "siteUrlZh": "https://astraquant.tech/skills/kucoin-broker.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/kucoin-broker.html",
+      "siteUrlZh": "https://tradeskill.si/skills/kucoin-broker.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1608,8 +1608,8 @@
       "descriptionEn": "Operate Crypto.com Exchange via @cryptocom/cdcx-cli: spot/perps/OCO, paper sandbox & 4-tier guards.",
       "descriptionZh": "通过 cdcx CLI 操作 Crypto.com Exchange：现货/衍生品/OCO 下单、模拟盘演练与四级安全确认。",
       "upstream": "https://github.com/crypto-com/crypto-agent-trading/tree/92e80c5527312d0acdf769f16511ba3c6db1f2fe/crypto-com-exchange",
-      "siteUrlEn": "https://astraquant.tech/en/skills/cryptocom-exchange.html",
-      "siteUrlZh": "https://astraquant.tech/skills/cryptocom-exchange.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/cryptocom-exchange.html",
+      "siteUrlZh": "https://tradeskill.si/skills/cryptocom-exchange.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1624,8 +1624,8 @@
       "descriptionEn": "Run market buys/sells, token swaps, bank/card fiat rails, and weekly limits via App API.",
       "descriptionZh": "调用 Crypto.com App API 完成市价买卖、代币兑换、法币银行卡出入金及每周限额查询。",
       "upstream": "https://github.com/crypto-com/crypto-agent-trading/tree/92e80c5527312d0acdf769f16511ba3c6db1f2fe/crypto-com-app",
-      "siteUrlEn": "https://astraquant.tech/en/skills/cryptocom-app.html",
-      "siteUrlZh": "https://astraquant.tech/skills/cryptocom-app.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/cryptocom-app.html",
+      "siteUrlZh": "https://tradeskill.si/skills/cryptocom-app.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1640,8 +1640,8 @@
       "descriptionEn": "Discover tokens, compare routes, set slippage guards, and build safe EVM swaps across Uniswap chains.",
       "descriptionZh": "在多条 EVM 链上协助代币发现、路径比价、滑点保护以及构建安全的 Uniswap 兑换交易。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-driver/skills/swap-planner",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-swap-planner.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-swap-planner.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-swap-planner.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-swap-planner.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1656,8 +1656,8 @@
       "descriptionEn": "Analyze fee tiers, concentrated price ticks, and impermanent loss before deploying v3/v4 LP positions.",
       "descriptionZh": "分析池子费率层、价格区间范围与无常损失敞口，辅助生成 v3 / v4 集中流动性建仓方案。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-driver/skills/liquidity-planner",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-liquidity-planner.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-liquidity-planner.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-liquidity-planner.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-liquidity-planner.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1672,8 +1672,8 @@
       "descriptionEn": "Official guide to integrating Uniswap Trading API and Universal Router into apps and bots.",
       "descriptionZh": "将 Uniswap Trading API 与通用路由集成到应用、前端或自动化交易脚本中的官方规范。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-trading/skills/swap-integration",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-swap-integration.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-swap-integration.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-swap-integration.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-swap-integration.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1688,8 +1688,8 @@
       "descriptionEn": "Automate recurring time-based or dip-triggered token accumulation directly on-chain via Uniswap.",
       "descriptionZh": "按固定时间周期或回调价格条件自动在链上定投目标代币的自动化策略技能。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-trading-tools/skills/dca-bot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-dca-bot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-dca-bot.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-dca-bot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-dca-bot.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1704,8 +1704,8 @@
       "descriptionEn": "Acquire multi-token baskets at target weights and automate periodic on-chain rebalancing.",
       "descriptionZh": "按目标权重买入多资产篮子并定期在链上自动再平衡，适合构建链上指数组合。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-trading-tools/skills/index-bot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-index-bot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-index-bot.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-index-bot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-index-bot.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1720,8 +1720,8 @@
       "descriptionEn": "Track target EVM Smart Money addresses on DEX and mirror swaps proportionally on-chain.",
       "descriptionZh": "追踪指定 EVM 聪明钱地址在 DEX 上的建仓减仓动态并按比例镜像复刻链上交易。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-trading-tools/skills/copy-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-copy-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-copy-trade.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-copy-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-copy-trade.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1736,8 +1736,8 @@
       "descriptionEn": "Generate OpenZeppelin-aligned v4 Hooks for dynamic fees, limit orders, MEV guards & custom curves.",
       "descriptionZh": "结合 OpenZeppelin 规范生成支持动态费率、限价单、防 MEV 与定制曲线的 v4 Hook 合约。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-hooks/skills/v4-hook-generator",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-v4-hook-generator.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-v4-hook-generator.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-v4-hook-generator.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-v4-hook-generator.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1752,8 +1752,8 @@
       "descriptionEn": "Audit PoolManager callback permissions, reentrancy, and slippage vectors in custom v4 Hooks.",
       "descriptionZh": "梳理 Uniswap v4 PoolManager 回调权限、重入与滑点攻击面，保障自定义 Hook 安全性。",
       "upstream": "https://github.com/Uniswap/uniswap-ai/tree/989dbafd07009769826f8692fe09b2cb2f686a24/packages/plugins/uniswap-hooks/skills/v4-security-foundations",
-      "siteUrlEn": "https://astraquant.tech/en/skills/uniswap-v4-security-foundations.html",
-      "siteUrlZh": "https://astraquant.tech/skills/uniswap-v4-security-foundations.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/uniswap-v4-security-foundations.html",
+      "siteUrlZh": "https://tradeskill.si/skills/uniswap-v4-security-foundations.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1768,8 +1768,8 @@
       "descriptionEn": "Integrate Jupiter Swap v2, Perps, Trigger/Limit orders, DCA, Lend, and Price APIs on Solana.",
       "descriptionZh": "全面集成 Jupiter Swap v2、Perps 永续、限价单、定投、Lend 与代币价格组合接口。",
       "upstream": "https://github.com/jup-ag/agent-skills/tree/a2211e3f6a7caa03310c7a9a8d816e723b0bdc5f/skills/integrating-jupiter",
-      "siteUrlEn": "https://astraquant.tech/en/skills/jupiter-integrate.html",
-      "siteUrlZh": "https://astraquant.tech/skills/jupiter-integrate.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/jupiter-integrate.html",
+      "siteUrlZh": "https://tradeskill.si/skills/jupiter-integrate.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1784,8 +1784,8 @@
       "descriptionEn": "Inspect Jupiter Lend pools, jlTokens yields, and execute vault supply/borrow via official SDKs.",
       "descriptionZh": "通过只读与写入 SDK 查询 Jupiter Lend 流动性池、jlTokens 收益及金库借贷头寸操作。",
       "upstream": "https://github.com/jup-ag/agent-skills/tree/a2211e3f6a7caa03310c7a9a8d816e723b0bdc5f/skills/jupiter-lend",
-      "siteUrlEn": "https://astraquant.tech/en/skills/jupiter-lend.html",
-      "siteUrlZh": "https://astraquant.tech/skills/jupiter-lend.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/jupiter-lend.html",
+      "siteUrlZh": "https://tradeskill.si/skills/jupiter-lend.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1800,8 +1800,8 @@
       "descriptionEn": "Migrate legacy Metis v1 or Ultra swap flows to unified Jupiter Swap v2 routes and builders.",
       "descriptionZh": "将原有 Jupiter Metis v1 或 Ultra 接口迁移至最新 Swap v2 统一构建接口与路由端点。",
       "upstream": "https://github.com/jup-ag/agent-skills/tree/a2211e3f6a7caa03310c7a9a8d816e723b0bdc5f/skills/jupiter-swap-migration",
-      "siteUrlEn": "https://astraquant.tech/en/skills/jupiter-swap-migration.html",
-      "siteUrlZh": "https://astraquant.tech/skills/jupiter-swap-migration.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/jupiter-swap-migration.html",
+      "siteUrlZh": "https://tradeskill.si/skills/jupiter-swap-migration.html",
       "attribution": "upstream-verbatim"
     },
     {
@@ -1816,8 +1816,8 @@
       "descriptionEn": "Route Solana token submissions for Jupiter VRFD verification, eligibility checks & metadata updates.",
       "descriptionZh": "路由引导 Solana 代币提交 Jupiter VRFD 资质审核、快速验证资格及元数据更新。",
       "upstream": "https://github.com/jup-ag/agent-skills/tree/a2211e3f6a7caa03310c7a9a8d816e723b0bdc5f/skills/jupiter-vrfd",
-      "siteUrlEn": "https://astraquant.tech/en/skills/jupiter-vrfd.html",
-      "siteUrlZh": "https://astraquant.tech/skills/jupiter-vrfd.html",
+      "siteUrlEn": "https://tradeskill.si/en/skills/jupiter-vrfd.html",
+      "siteUrlZh": "https://tradeskill.si/skills/jupiter-vrfd.html",
       "attribution": "upstream-verbatim"
     }
   ],
@@ -1832,8 +1832,8 @@
       "descriptionZh": "只读查询多链 DEX 代币搜索、流动性池、持仓分布、风险检测、K 线、聪明钱信号与扫链（Trenches）。",
       "source": "https://github.com/okx/onchainos-skills/blob/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-dex-market/SKILL.md",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-dex-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-dex-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-dex-market.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-dex-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-dex-market.html"
     },
     {
       "id": "okx-agentic-wallet",
@@ -1845,8 +1845,8 @@
       "descriptionZh": "管理 OKX OnchainOS 多链钱包账户与余额，支持转账、跨链桥接、Swap 兑换及交易历史追踪。",
       "source": "https://github.com/okx/onchainos-skills/blob/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-agentic-wallet/SKILL.md",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-agentic-wallet",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-agentic-wallet.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-agentic-wallet.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-agentic-wallet.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-agentic-wallet.html"
     },
     {
       "id": "okx-agent-payments-protocol",
@@ -1858,8 +1858,8 @@
       "descriptionZh": "处理 AI Agent 间的 x402、MPP 付费接口、a2a-pay 支付链接以及按次/周期计费结算流程。",
       "source": "https://github.com/okx/onchainos-skills/blob/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-agent-payments-protocol/SKILL.md",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-agent-payments-protocol",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-agent-payments-protocol.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-agent-payments-protocol.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-agent-payments-protocol.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-agent-payments-protocol.html"
     },
     {
       "id": "okx-onchain-ai",
@@ -1871,8 +1871,8 @@
       "descriptionZh": "在 OKX.AI 上注册与管理 Agent 身份，发现、发布或购买 Agent 任务服务并完成链上签名确认。",
       "source": "https://github.com/okx/onchainos-skills/blob/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-ai/SKILL.md",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-ai",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-onchain-ai.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-onchain-ai.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-onchain-ai.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-onchain-ai.html"
     },
     {
       "id": "okx-onchain-guide",
@@ -1884,8 +1884,8 @@
       "descriptionZh": "安装、升级和配置 OKX OnchainOS 环境与角色路由指南，帮助开发者快速上手链上工具链。",
       "source": "https://github.com/okx/onchainos-skills/blob/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-guide/SKILL.md",
       "upstream": "https://github.com/okx/onchainos-skills/tree/a5ce05f6dc9c4074da1069401b14e1055d62e315/skills/okx-guide",
-      "siteUrlEn": "https://astraquant.tech/en/skills/okx-onchain-guide.html",
-      "siteUrlZh": "https://astraquant.tech/skills/okx-onchain-guide.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/okx-onchain-guide.html",
+      "siteUrlZh": "https://tradeskill.si/skills/okx-onchain-guide.html"
     },
     {
       "id": "gate-cex-trade",
@@ -1897,8 +1897,8 @@
       "descriptionZh": "现货、永续、交割、期权和闪兑的下单与查询。行情不需要授权。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-trade/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-trade.html"
     },
     {
       "id": "gate-cex-bot",
@@ -1910,8 +1910,8 @@
       "descriptionZh": "现货和合约的网格、马丁格尔、智能持仓与组合机器人。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-bot/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-bot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-bot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-bot.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-bot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-bot.html"
     },
     {
       "id": "gate-cex-assets",
@@ -1923,8 +1923,8 @@
       "descriptionZh": "余额、充值和提币记录，以及授权后的账户内划转。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-assets/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-assets",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-assets.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-assets.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-assets.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-assets.html"
     },
     {
       "id": "gate-cex-earn",
@@ -1936,8 +1936,8 @@
       "descriptionZh": "理财产品和抵押借贷的查询与申购。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-earn/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-earn",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-earn.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-earn.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-earn.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-earn.html"
     },
     {
       "id": "gate-cex-subaccount",
@@ -1949,8 +1949,8 @@
       "descriptionZh": "子账户与 API Key 管理，适合替他人或团队管理账户。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-subaccount/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-subaccount",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-subaccount.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-subaccount.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-subaccount.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-subaccount.html"
     },
     {
       "id": "gate-cex-affiliate",
@@ -1962,8 +1962,8 @@
       "descriptionZh": "查已授权的代理关系、佣金和渠道数据。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-affiliate/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cex-affiliate",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cex-affiliate.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cex-affiliate.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cex-affiliate.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cex-affiliate.html"
     },
     {
       "id": "gate-info-research",
@@ -1975,8 +1975,8 @@
       "descriptionZh": "单币深度研报、全市场概览、多币对比、技术指标与宏观数据综合分析。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-research/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-research",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-info-research.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-info-research.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-info-research.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-info-research.html"
     },
     {
       "id": "gate-info-risk",
@@ -1988,8 +1988,8 @@
       "descriptionZh": "优先做安全与合规排查：合约风险检测、地址标签与项目风险事件核验。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-risk/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-risk",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-info-risk.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-info-risk.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-info-risk.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-info-risk.html"
     },
     {
       "id": "gate-news-intel",
@@ -2001,8 +2001,8 @@
       "descriptionZh": "实时快讯、异动归因报告、上新公告与社媒社区情绪检索。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-news-intel/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-news-intel",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-news-intel.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-news-intel.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-news-intel.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-news-intel.html"
     },
     {
       "id": "gate-exchange-pay",
@@ -2014,8 +2014,8 @@
       "descriptionZh": "通过 Gate Pay 完成商户收单扣款或 HTTP 402 支付流程。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-exchange-pay/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-exchange-pay",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-exchange-pay.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-exchange-pay.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-exchange-pay.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-exchange-pay.html"
     },
     {
       "id": "gate-cli-installer",
@@ -2027,8 +2027,8 @@
       "descriptionZh": "一键安装或升级官方 gate-cli，并配置 Gate 技能目录与校验环境。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cli-installer/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-cli-installer",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-cli-installer.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-cli-installer.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-cli-installer.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-cli-installer.html"
     },
     {
       "id": "gate-dex-market",
@@ -2040,8 +2040,8 @@
       "descriptionZh": "通过 Gate DEX MCP 查询链上代币实时报价、K 线走势、流动性池与交易统计数据。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-market/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-market.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-market.html"
     },
     {
       "id": "gate-dex-market-cli",
@@ -2053,8 +2053,8 @@
       "descriptionZh": "使用 gate-dex 命令行快速拉取链上 K 线、流动性深度、安全检测与地址持仓。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-market-cli/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-market-cli",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-market-cli.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-market-cli.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-market-cli.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-market-cli.html"
     },
     {
       "id": "gate-dex-trade",
@@ -2066,8 +2066,8 @@
       "descriptionZh": "通过 Gate DEX MCP 路由多链代币兑换、询价、买卖与滑点保护交易。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-trade/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-trade.html"
     },
     {
       "id": "gate-dex-trade-cli",
@@ -2079,8 +2079,8 @@
       "descriptionZh": "通过 gate-dex CLI 一体化完成链上询价、校验、交易签名与广播。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-trade-cli/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-trade-cli",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-trade-cli.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-trade-cli.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-trade-cli.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-trade-cli.html"
     },
     {
       "id": "gate-dex-wallet",
@@ -2092,8 +2092,8 @@
       "descriptionZh": "管理 Gate DEX 链上钱包身份、资产余额分布与多链地址连通性。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-wallet/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-wallet",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-wallet.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-wallet.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-wallet.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-wallet.html"
     },
     {
       "id": "gate-dex-wallet-cli",
@@ -2105,8 +2105,8 @@
       "descriptionZh": "纯 REST 命令行管理 Gate DEX OAuth 登录鉴权、钱包余额与链上地址查询。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-wallet-cli/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-dex-wallet-cli",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-dex-wallet-cli.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-dex-wallet-cli.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-dex-wallet-cli.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-dex-wallet-cli.html"
     },
     {
       "id": "gate-info-web3",
@@ -2118,8 +2118,8 @@
       "descriptionZh": "聚焦链上地址追踪、协议 TVL 趋势、持有者结构与 Web3 项目生态分析。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-web3/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-info-web3",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-info-web3.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-info-web3.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-info-web3.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-info-web3.html"
     },
     {
       "id": "gate-mcp-installer",
@@ -2131,8 +2131,8 @@
       "descriptionZh": "为 Cursor、Claude Code、Codex 一键安装并配置 Gate MCP 服务器与官方技能包。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-mcp-installer/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-mcp-installer",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-mcp-installer.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-mcp-installer.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-mcp-installer.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-mcp-installer.html"
     },
     {
       "id": "gate-pay-x402",
@@ -2144,8 +2144,8 @@
       "descriptionZh": "支持 AI Agent 自动响应 HTTP 402 付费挑战的 Gate Pay x402 支付集成技能。",
       "source": "https://github.com/gate/gate-skills/blob/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-pay-x402/SKILL.md",
       "upstream": "https://github.com/gate/gate-skills/tree/b96c34099f42538cc80130fae4b3bd07cc52df11/skills/gate-pay-x402",
-      "siteUrlEn": "https://astraquant.tech/en/skills/gate-pay-x402.html",
-      "siteUrlZh": "https://astraquant.tech/skills/gate-pay-x402.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/gate-pay-x402.html",
+      "siteUrlZh": "https://tradeskill.si/skills/gate-pay-x402.html"
     },
     {
       "id": "binance-fiat",
@@ -2157,8 +2157,8 @@
       "descriptionZh": "查询支持法币出入金的国家、币种、支付通道限额、汇率及历史法币订单。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/fiat/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/fiat",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-fiat.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-fiat.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-fiat.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-fiat.html"
     },
     {
       "id": "binance-payment",
@@ -2170,8 +2170,8 @@
       "descriptionZh": "基于资金账户完成扫码支付、收款码生成与订单状态查询。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/payment/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/payment",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-payment.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-payment.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-payment.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-payment.html"
     },
     {
       "id": "binance-academy",
@@ -2183,8 +2183,8 @@
       "descriptionZh": "检索币安学院官方术语、课程与安全风控科普内容，支持多语言学习路径。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/academy-skill/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/academy-skill",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-academy.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-academy.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-academy.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-academy.html"
     },
     {
       "id": "binance-square-post",
@@ -2196,8 +2196,8 @@
       "descriptionZh": "向币安广场发布短讯、多图动态、长文章或视频内容，适合策略观点分发。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/square-post/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance/square-post",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-square-post.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-square-post.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-square-post.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-square-post.html"
     },
     {
       "id": "binance-agentic-wallet",
@@ -2209,8 +2209,8 @@
       "descriptionZh": "支持多链 DEX 兑换、限价单、ENS/.bnb/.ai 转账、质押借贷、x402 支付及 MEV 保护。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-agentic-wallet/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-agentic-wallet",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-agentic-wallet.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-agentic-wallet.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-agentic-wallet.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-agentic-wallet.html"
     },
     {
       "id": "binance-trading-signal",
@@ -2222,8 +2222,8 @@
       "descriptionZh": "聚合聪明钱钱包买卖信号与用户自定义策略回测，提供金/银/铜牌命中率与购买时机评估。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-trading-signal/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-trading-signal",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-trading-signal.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-trading-signal.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-trading-signal.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-trading-signal.html"
     },
     {
       "id": "binance-wallet-tracker",
@@ -2235,8 +2235,8 @@
       "descriptionZh": "监控 Smart Money / KOL 分组异动、共识买点、波段复盘，并支持 WebSocket 实时推送。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-wallet-tracker/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-wallet-tracker",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-wallet-tracker.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-wallet-tracker.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-wallet-tracker.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-wallet-tracker.html"
     },
     {
       "id": "binance-leaderboard",
@@ -2248,8 +2248,8 @@
       "descriptionZh": "按胜率、盈亏与回撤六维模型评估 BSC/SOL/ETH/Base 地址质量，并支持 Gem Hunter 选币。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-leaderboard/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-leaderboard",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-leaderboard.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-leaderboard.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-leaderboard.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-leaderboard.html"
     },
     {
       "id": "binance-onchain-copy-trader",
@@ -2261,8 +2261,8 @@
       "descriptionZh": "串联地址监控、安全审计与链上止盈止损的自动跟单工作流脚手架（需自设风控参数）。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-onchain-copy-trader/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-onchain-copy-trader",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-onchain-copy-trader.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-onchain-copy-trader.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-onchain-copy-trader.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-onchain-copy-trader.html"
     },
     {
       "id": "binance-crypto-market-rank",
@@ -2274,8 +2274,8 @@
       "descriptionZh": "获取社交热度榜、热搜榜、Binance Alpha 榜、聪明钱净流入与 Pulse 突破分榜单。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/crypto-market-rank/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/crypto-market-rank",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-crypto-market-rank.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-crypto-market-rank.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-crypto-market-rank.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-crypto-market-rank.html"
     },
     {
       "id": "binance-meme-rush",
@@ -2287,8 +2287,8 @@
       "descriptionZh": "实时监控 Pump.fun、Four.meme 等内盘/外盘迁移新币，以及 AI 识别的资金热点叙事。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/meme-rush/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/meme-rush",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-meme-rush.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-meme-rush.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-meme-rush.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-meme-rush.html"
     },
     {
       "id": "binance-query-token-info",
@@ -2300,8 +2300,8 @@
       "descriptionZh": "按关键词或合约地址查询多链代币基础信息、持仓人数、流动性深度与实时 K 线。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-token-info/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-token-info",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-query-token-info.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-query-token-info.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-query-token-info.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-query-token-info.html"
     },
     {
       "id": "binance-query-token-audit",
@@ -2313,8 +2313,8 @@
       "descriptionZh": "在链上兑换前检测蜜罐合约、恶意增发、高额交易税与常见项目欺诈风险。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-token-audit/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-token-audit",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-query-token-audit.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-query-token-audit.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-query-token-audit.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-query-token-audit.html"
     },
     {
       "id": "binance-query-address-info",
@@ -2326,8 +2326,8 @@
       "descriptionZh": "免授权输入任意链上地址，一键列出持仓代币名称、实时价格、24h 涨跌与数量。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-address-info/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/query-address-info",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-query-address-info.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-query-address-info.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-query-address-info.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-query-address-info.html"
     },
     {
       "id": "binance-web3-signal",
@@ -2339,8 +2339,8 @@
       "descriptionZh": "追踪 BSC 与 Solana 链上大户逐笔买单/卖单触发事件、最高涨幅与退出比例。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/trading-signal/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/trading-signal",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-web3-signal.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-web3-signal.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-web3-signal.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-web3-signal.html"
     },
     {
       "id": "binance-tokenized-securities-info",
@@ -2352,8 +2352,8 @@
       "descriptionZh": "查询 Ondo 链上美股代币列表、市盈率与股息率基本面、公司行动停牌状态与对比报价。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-tokenized-securities-info/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-tokenized-securities-info",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-tokenized-securities-info.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-tokenized-securities-info.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-tokenized-securities-info.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-tokenized-securities-info.html"
     },
     {
       "id": "binance-prediction-updown",
@@ -2365,8 +2365,8 @@
       "descriptionZh": "面向每小时 BTC 涨跌预测市场的自动化筛选、下单、结算与赎回策略开发模板。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-prediction-updown/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-prediction-updown",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-prediction-updown.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-prediction-updown.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-prediction-updown.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-prediction-updown.html"
     },
     {
       "id": "binance-sports-ai-analyzer",
@@ -2378,8 +2378,8 @@
       "descriptionZh": "结合赛事资讯与自定义修正因子重算胜率概率，辅助预测市场赛前分析。",
       "source": "https://github.com/binance/binance-skills-hub/blob/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-sports-ai-analyzer/SKILL.md",
       "upstream": "https://github.com/binance/binance-skills-hub/tree/7d1b1f78d525f9e653b96819f91a549302fda1da/skills/binance-web3/binance-sports-ai-analyzer",
-      "siteUrlEn": "https://astraquant.tech/en/skills/binance-sports-ai-analyzer.html",
-      "siteUrlZh": "https://astraquant.tech/skills/binance-sports-ai-analyzer.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/binance-sports-ai-analyzer.html",
+      "siteUrlZh": "https://tradeskill.si/skills/binance-sports-ai-analyzer.html"
     },
     {
       "id": "bybit-trading-cli",
@@ -2391,8 +2391,8 @@
       "descriptionZh": "Bybit 官方 V5 命令行工具，可查全部接口参数，支持测试网。与上面的基础技能独立。",
       "source": "https://github.com/bybit-exchange/trading-cli/blob/a3aa42e197f87b13c978b0fac80a87c7377f0f69/skill/SKILL.md",
       "upstream": "https://github.com/bybit-exchange/trading-cli/blob/a3aa42e197f87b13c978b0fac80a87c7377f0f69/skill/SKILL.md",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bybit-trading-cli.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bybit-trading-cli.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bybit-trading-cli.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bybit-trading-cli.html"
     },
     {
       "id": "coinbase-router",
@@ -2404,8 +2404,8 @@
       "descriptionZh": "Coinbase 官方根路由 Skill，根据场景自动匹配 Coinbase CLI、托管 MCP 或 Wallet MCP 入口。",
       "source": "https://github.com/coinbase/agents/blob/6076c3e26702359484f986ca89c48770f78e3333/skills/coinbase/SKILL.md",
       "upstream": "https://github.com/coinbase/agents/tree/6076c3e26702359484f986ca89c48770f78e3333/skills/coinbase",
-      "siteUrlEn": "https://astraquant.tech/en/skills/coinbase-router.html",
-      "siteUrlZh": "https://astraquant.tech/skills/coinbase-router.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/coinbase-router.html",
+      "siteUrlZh": "https://tradeskill.si/skills/coinbase-router.html"
     },
     {
       "id": "bingx-spot-market",
@@ -2417,8 +2417,8 @@
       "descriptionZh": "查询 BingX 现货实时价格、深度盘口、K 线与近期成交，支持交易对规格检索。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-market/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-spot-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-spot-market.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-spot-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-spot-market.html"
     },
     {
       "id": "bingx-spot-trade",
@@ -2430,8 +2430,8 @@
       "descriptionZh": "BingX 现货限价/市价/OCO 委托下单、撤单、历史成交及当前手续费率查询。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-trade/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-spot-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-spot-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-spot-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-spot-trade.html"
     },
     {
       "id": "bingx-spot-account",
@@ -2443,8 +2443,8 @@
       "descriptionZh": "查看 BingX 现货账户各币种余额概览，执行现货与合约等账户间资金划转。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-account/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/spot-account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-spot-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-spot-account.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-spot-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-spot-account.html"
     },
     {
       "id": "bingx-swap-market",
@@ -2456,8 +2456,8 @@
       "descriptionZh": "查询 BingX USDT-M 永续合约标记价、资金费率、K 线、持仓量与 TradFi 交易时段。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-market/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-market",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-swap-market.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-swap-market.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-swap-market.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-swap-market.html"
     },
     {
       "id": "bingx-swap-trade",
@@ -2469,8 +2469,8 @@
       "descriptionZh": "在 BingX U 本位永续合约中下达/撤销委托、管理仓位方向及调节杠杆与全/逐仓模式。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-trade/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-swap-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-swap-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-swap-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-swap-trade.html"
     },
     {
       "id": "bingx-swap-account",
@@ -2482,8 +2482,8 @@
       "descriptionZh": "查询 BingX 永续账户保证金率、浮动盈亏、预计强平价、费率与资金流水记录。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-account/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/swap-account",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-swap-account.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-swap-account.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-swap-account.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-swap-account.html"
     },
     {
       "id": "bingx-cswap-trade",
@@ -2495,8 +2495,8 @@
       "descriptionZh": "管理 BingX 币本位反向永续合约开平仓下单、撤单、保证金模式与杠杆倍率。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/cswap-trade/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/cswap-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-cswap-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-cswap-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-cswap-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-cswap-trade.html"
     },
     {
       "id": "bingx-standard-trade",
@@ -2508,8 +2508,8 @@
       "descriptionZh": "专门用于查询 BingX 标准合约的当前持仓、历史订单及标准合约账户余额。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/standard-trade/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/standard-trade",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-standard-trade.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-standard-trade.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-standard-trade.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-standard-trade.html"
     },
     {
       "id": "bingx-copytrade-swap",
@@ -2521,8 +2521,8 @@
       "descriptionZh": "管理 BingX USDT-M 合约跟单仓位、设置跟单止盈止损、分成比例与收益统计。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/copytrade-swap/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/copytrade-swap",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-copytrade-swap.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-copytrade-swap.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-copytrade-swap.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-copytrade-swap.html"
     },
     {
       "id": "bingx-dynamic-sl-tp",
@@ -2534,8 +2534,8 @@
       "descriptionZh": "基于 ATR 波动率与支撑阻力位自动测算并动态维护保本损、移动止盈与分批止盈单。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-dynamic-sl-tp/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-dynamic-sl-tp",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-dynamic-sl-tp.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-dynamic-sl-tp.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-dynamic-sl-tp.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-dynamic-sl-tp.html"
     },
     {
       "id": "bingx-maker-entry",
@@ -2547,8 +2547,8 @@
       "descriptionZh": "扫描盘口深度并在最优买一/卖一附近分层挂出 Maker 限价单，降低大单吃单手续费。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-maker-entry/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-maker-entry",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-maker-entry.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-maker-entry.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-maker-entry.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-maker-entry.html"
     },
     {
       "id": "bingx-technical-analysis",
@@ -2560,8 +2560,8 @@
       "descriptionZh": "本地计算 78 项技术指标、62 种蜡烛图形态、多周期评分、背离与支撑阻力位。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-technical-analysis/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-technical-analysis",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-technical-analysis.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-technical-analysis.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-technical-analysis.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-technical-analysis.html"
     },
     {
       "id": "bingx-sentiment-dashboard",
@@ -2573,8 +2573,8 @@
       "descriptionZh": "整合恐慌贪婪指数、资金费率热力图、OI 持仓异动与 AHR999 定投区间指示器。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-sentiment-dashboard/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/bingx-sentiment-dashboard",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-sentiment-dashboard.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-sentiment-dashboard.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-sentiment-dashboard.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-sentiment-dashboard.html"
     },
     {
       "id": "bingx-agent",
@@ -2586,8 +2586,8 @@
       "descriptionZh": "查询 BingX 代理名下受邀用户列表、每日手续费返佣明细、API 返佣及合作伙伴报表。",
       "source": "https://github.com/BingX-API/api-ai-skills/blob/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/agent/SKILL.md",
       "upstream": "https://github.com/BingX-API/api-ai-skills/tree/5d96e72561c97de2ec3ba8650e48582c371cd4ad/skills/agent",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bingx-agent.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bingx-agent.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bingx-agent.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bingx-agent.html"
     },
     {
       "id": "bitmart-exchange-spot",
@@ -2599,8 +2599,8 @@
       "descriptionZh": "支持 BitMart 现货限价/市价/条件单下单、杠杆划转、手续费核对与实时行情订阅。",
       "source": "https://github.com/bitmartexchange/bitmart-skills/blob/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-exchange-spot/SKILL.md",
       "upstream": "https://github.com/bitmartexchange/bitmart-skills/tree/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-exchange-spot",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bitmart-exchange-spot.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bitmart-exchange-spot.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bitmart-exchange-spot.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bitmart-exchange-spot.html"
     },
     {
       "id": "bitmart-exchange-futures",
@@ -2612,8 +2612,8 @@
       "descriptionZh": "覆盖 BitMart 永续合约开平仓、杠杆调整、追踪委托、一键全平、模拟盘测试与资金费率流。",
       "source": "https://github.com/bitmartexchange/bitmart-skills/blob/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-exchange-futures/SKILL.md",
       "upstream": "https://github.com/bitmartexchange/bitmart-skills/tree/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-exchange-futures",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bitmart-exchange-futures.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bitmart-exchange-futures.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bitmart-exchange-futures.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bitmart-exchange-futures.html"
     },
     {
       "id": "bitmart-wallet-ai",
@@ -2625,8 +2625,8 @@
       "descriptionZh": "12 个免 API Key 链上接口：代币检索、K 线、热榜、xStock 排行、聪明钱盈亏分析与 Swap 报价。",
       "source": "https://github.com/bitmartexchange/bitmart-skills/blob/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-wallet-ai/SKILL.md",
       "upstream": "https://github.com/bitmartexchange/bitmart-skills/tree/79a4d7f5e9fcaeaebbfeb9e207610f52e6fcf78d/skills/bitmart-wallet-ai",
-      "siteUrlEn": "https://astraquant.tech/en/skills/bitmart-wallet-ai.html",
-      "siteUrlZh": "https://astraquant.tech/skills/bitmart-wallet-ai.html"
+      "siteUrlEn": "https://tradeskill.si/en/skills/bitmart-wallet-ai.html",
+      "siteUrlZh": "https://tradeskill.si/skills/bitmart-wallet-ai.html"
     }
   ]
 }

@@ -12,7 +12,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$DefaultOrigin = "https://astraquant.tech"
+$DefaultOrigin = "https://tradeskill.si"
 
 function Show-Usage {
     Write-Host @"

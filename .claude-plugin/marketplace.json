@@ -3,10 +3,10 @@
   "name": "crypto-trading-skills",
   "owner": {
     "name": "0xethanq",
-    "url": "https://astraquant.tech"
+    "url": "https://tradeskill.si"
   },
   "metadata": {
-    "description": "95+ AI Agent skills for crypto trading across 15 exchanges & DEXs — powered by TradeSkill (astraquant.tech)",
+    "description": "95+ AI Agent skills for crypto trading across 15 exchanges & DEXs — powered by TradeSkill (tradeskill.si)",
     "version": "1.0.0"
   },
   "plugins": [

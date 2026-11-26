@@ -4,7 +4,7 @@
 #   curl -fsSL <origin>/install.sh | sh -s -- --client cursor okx-cex-trade
 set -eu
 
-DEFAULT_ORIGIN="https://astraquant.tech"
+DEFAULT_ORIGIN="https://tradeskill.si"
 ORIGIN="${SKILLHUB_ORIGIN:-$DEFAULT_ORIGIN}"
 CLIENT=""
 DIR="${SKILLS_DIR:-}"

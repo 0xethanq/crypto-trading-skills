@@ -1,15 +1,15 @@
 ---
 name: tradeskill
-description: Discover, verify, and install 156 official crypto trading AI skills across 15 exchanges and DEXs (OKX, Gate, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, BingX, BitMart, Uniswap, Jupiter) from TradeSkill (astraquant.tech) or GitHub.
+description: Discover, verify, and install 156 official crypto trading AI skills across 15 exchanges and DEXs (OKX, Gate, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, BingX, BitMart, Uniswap, Jupiter) from TradeSkill (tradeskill.si) or GitHub.
 ---
 
 # TradeSkill — Multi-Exchange Crypto Trading Skill Router
 
 Use this flagship skill whenever the user wants to discover, compare, install, or set up AI agent trading skills for cryptocurrencies across **15 supported exchanges and DEXs** (**156 official skills total**: **94 bundled redistributable MIT/Apache-2.0 skills** in this repository + **62 upstream-only official repository targets**).
 
-- **Hub Website**: https://astraquant.tech/en/ (Chinese: https://astraquant.tech/)
+- **Hub Website**: https://tradeskill.si/en/ (Chinese: https://tradeskill.si/)
 - **GitHub Registry**: https://github.com/0xethanq/crypto-trading-skills
-- **Machine-Readable Catalog**: https://astraquant.tech/catalog.json
+- **Machine-Readable Catalog**: https://tradeskill.si/catalog.json
 
 ## 1. Detect Active Agent Skills Directory
 
@@ -56,15 +56,15 @@ Install by exchange pack in Claude Code:
 **macOS / Linux:**
 
 ```sh
-curl -fsSL "https://astraquant.tech/install.sh" | sh -s okx-cex-market
-curl -fsSL "https://astraquant.tech/install.sh" | sh -s kraken
-curl -fsSL "https://astraquant.tech/install.sh" | sh -s all
+curl -fsSL "https://tradeskill.si/install.sh" | sh -s okx-cex-market
+curl -fsSL "https://tradeskill.si/install.sh" | sh -s kraken
+curl -fsSL "https://tradeskill.si/install.sh" | sh -s all
 ```
 
 **Windows PowerShell:**
 
 ```powershell
-powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://astraquant.tech/install.ps1'))) okx-cex-market"
+powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskill.si/install.ps1'))) okx-cex-market"
 ```
 
 ## 3. Resolving Upstream-Only Skills (62 Official Targets)
@@ -72,7 +72,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://astraquan
 Some platforms (such as **Gate**'s 20 skills, **Binance Web3**'s 14 skills, **BingX**'s 14 skills, and **BitMart**'s 3 skills) do not declare permissive third-party ZIP redistribution or depend on upstream CLI generators.
 
 When the user asks for one of these:
-1. Fetch `https://astraquant.tech/catalog.json` (or read `catalog.json` in this repo under `officialOnlySkills`).
+1. Fetch `https://tradeskill.si/catalog.json` (or read `catalog.json` in this repo under `officialOnlySkills`).
 2. Follow the entry's `source` or `upstream` URL and official CLI instructions instead of searching `skills/`.
 
 ## 4. Supported Platforms (15 Exchanges & DEXs)
