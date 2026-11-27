@@ -1,15 +1,17 @@
 <div align="center">
 
-# TradeSkill — 加密货币交易所 AI Agent 技能仓库
+# TradeSkill | 加密货币交易所 AI Agent 技能仓库
 
 **收录 15 大主流交易所与 DEX · 95 个可直装技能包 + 156 个官方技能全量索引**
 
-[English](README.md) · **简体中文** · [中文站点目录](https://tradeskill.si/) · [来源与 Commit 锁定](SOURCES.md)
+[English](README.md) · **简体中文** · [中文站点目录](https://tradeskill.si/) · [来源与 Commit 锁定](SOURCES.md) · [AstraQuant 量化终端](https://astraquant.top/)
 
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-95_可直装-10b981?style=flat-square)](catalog.json)
 [![Exchanges & DEXs](https://img.shields.io/badge/覆盖平台-15_家-3b82f6?style=flat-square)](https://tradeskill.si/)
 [![Clients](https://img.shields.io/badge/适配客户端-Claude_Code_%7C_Cursor_%7C_Codex_%7C_Windsurf-111827?style=flat-square)](#快速开始)
 [![Website](https://img.shields.io/badge/官方网站-tradeskill.si-f59e0b?style=flat-square)](https://tradeskill.si/)
+[![AstraQuant](https://img.shields.io/badge/姊妹终端-AstraQuant_7x24-00E599?style=flat-square)](https://github.com/0xethanq/astra-quant-agent)
+[![License](https://img.shields.io/badge/License-MIT_%2F_Apache--2.0-6366f1?style=flat-square)](LICENSE)
 
 </div>
 
@@ -138,7 +140,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Bybit Bybit（<code>bybit</code>）— 1 个可直装技能 · 插件包 <code>bybit-skills</code></strong></summary>
+<summary><strong>Bybit（<code>bybit</code>）— 1 个可直装技能 · 插件包 <code>bybit-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -147,7 +149,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Bitget Bitget（<code>bitget</code>）— 2 个可直装技能 · 插件包 <code>bitget-skills</code></strong></summary>
+<summary><strong>Bitget（<code>bitget</code>）— 2 个可直装技能 · 插件包 <code>bitget-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -157,7 +159,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Coinbase Coinbase（<code>coinbase</code>）— 3 个可直装技能 · 插件包 <code>coinbase-skills</code></strong></summary>
+<summary><strong>Coinbase（<code>coinbase</code>）— 3 个可直装技能 · 插件包 <code>coinbase-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -168,7 +170,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Kraken Kraken（<code>kraken</code>）— 18 个可直装技能 · 插件包 <code>kraken-skills</code></strong></summary>
+<summary><strong>Kraken（<code>kraken</code>）— 18 个可直装技能 · 插件包 <code>kraken-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -258,7 +260,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Crypto.com Crypto.com（<code>cryptocom</code>）— 2 个可直装技能 · 插件包 <code>cryptocom-skills</code></strong></summary>
+<summary><strong>Crypto.com（<code>cryptocom</code>）— 2 个可直装技能 · 插件包 <code>cryptocom-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -268,7 +270,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Uniswap Uniswap（<code>uniswap</code>）— 8 个可直装技能 · 插件包 <code>uniswap-skills</code></strong></summary>
+<summary><strong>Uniswap（<code>uniswap</code>）— 8 个可直装技能 · 插件包 <code>uniswap-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -284,7 +286,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 </details>
 
 <details>
-<summary><strong>Jupiter Jupiter（<code>jupiter</code>）— 4 个可直装技能 · 插件包 <code>jupiter-skills</code></strong></summary>
+<summary><strong>Jupiter（<code>jupiter</code>）— 4 个可直装技能 · 插件包 <code>jupiter-skills</code></strong></summary>
 
 | 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
 |---|---|---|---|
@@ -301,12 +303,12 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 对于未提供可再分发许可或依赖上游 CLI 生成器（如 Gate、Binance Web3、BingX、BitMart）的技能，仓库索引指向其官方上游源与安装指南：
 
 - **欧易 OKX**（5 个）：使用 OKX OnchainOS / Trade CLI 安装 — [OKX 专区](https://tradeskill.si/exchanges/okx.html) · [官方仓库](https://github.com/okx/agent-skills)
-- **Gate Gate**（20 个）：使用 Gate CLI / MCP 官方生成器安装 — [Gate 专区](https://tradeskill.si/exchanges/gate.html) · [官方仓库](https://github.com/gate/gate-skills)
+- **Gate**（20 个）：使用 Gate CLI / MCP 官方生成器安装 — [Gate 专区](https://tradeskill.si/exchanges/gate.html) · [官方仓库](https://github.com/gate/gate-skills)
 - **币安 Binance**（18 个）：从 binance/binance-skills-hub 安装 — [Binance 专区](https://tradeskill.si/exchanges/binance.html) · [官方仓库](https://github.com/binance/binance-skills-hub)
-- **Bybit Bybit**（1 个）：从 bybit-exchange/trading-cli 安装 — [Bybit 专区](https://tradeskill.si/exchanges/bybit.html) · [官方仓库](https://github.com/bybit-exchange/skills)
-- **Coinbase Coinbase**（1 个）：coinbase/agents 总入口路由 — [Coinbase 专区](https://tradeskill.si/exchanges/coinbase.html) · [官方仓库](https://github.com/coinbase/agents)
-- **BingX BingX**（14 个）：从 BingX-API/api-ai-skills 安装 — [BingX 专区](https://tradeskill.si/exchanges/bingx.html) · [官方仓库](https://github.com/BingX-API/api-ai-skills)
-- **BitMart BitMart**（3 个）：从 bitmartexchange/bitmart-skills 安装 — [BitMart 专区](https://tradeskill.si/exchanges/bitmart.html) · [官方仓库](https://github.com/bitmartexchange/bitmart-skills)
+- **Bybit**（1 个）：从 bybit-exchange/trading-cli 安装 — [Bybit 专区](https://tradeskill.si/exchanges/bybit.html) · [官方仓库](https://github.com/bybit-exchange/skills)
+- **Coinbase**（1 个）：coinbase/agents 总入口路由 — [Coinbase 专区](https://tradeskill.si/exchanges/coinbase.html) · [官方仓库](https://github.com/coinbase/agents)
+- **BingX**（14 个）：从 BingX-API/api-ai-skills 安装 — [BingX 专区](https://tradeskill.si/exchanges/bingx.html) · [官方仓库](https://github.com/BingX-API/api-ai-skills)
+- **BitMart**（3 个）：从 bitmartexchange/bitmart-skills 安装 — [BitMart 专区](https://tradeskill.si/exchanges/bitmart.html) · [官方仓库](https://github.com/bitmartexchange/bitmart-skills)
 
 ---
 

@@ -1,15 +1,16 @@
 <div align="center">
 
-# TradeSkill — Crypto Trading AI Agent Skills
+# TradeSkill | Crypto Trading AI Agent Skills
 
 **95 ready-to-install AI Agent skills + 156 official catalog entries across 15 crypto exchanges & DEXs**
 
-**English** · [简体中文](README.zh-CN.md) · [Official Web Directory](https://tradeskill.si/en/) · [Source & Commit Locks](SOURCES.md)
+**English** · [简体中文](README.zh-CN.md) · [Official Web Directory](https://tradeskill.si/en/) · [Source & Commit Locks](SOURCES.md) · [AstraQuant 24/7 Bot](https://astraquant.top/)
 
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-95_Bundled-10b981?style=flat-square)](catalog.json)
 [![Exchanges & DEXs](https://img.shields.io/badge/Exchanges_%26_DEXs-15_Supported-3b82f6?style=flat-square)](https://tradeskill.si/en/)
 [![Clients](https://img.shields.io/badge/Clients-Claude_Code_%7C_Cursor_%7C_Codex_%7C_Windsurf-111827?style=flat-square)](#quick-start)
 [![Website](https://img.shields.io/badge/Website-tradeskill.si-f59e0b?style=flat-square)](https://tradeskill.si/en/)
+[![AstraQuant](https://img.shields.io/badge/Sister_Engine-AstraQuant_24%2F7-00E599?style=flat-square)](https://github.com/0xethanq/astra-quant-agent)
 [![License](https://img.shields.io/badge/License-MIT_%2F_Apache--2.0-6366f1?style=flat-square)](LICENSE)
 
 </div>
@@ -141,7 +142,7 @@ Expand any exchange below to browse every bundled `SKILL.md` directly on GitHub 
 </details>
 
 <details>
-<summary><strong>Bybit (<code>bybit</code>) — 1 bundled skills · Claude pack: <code>bybit-skills</code></strong></summary>
+<summary><strong>Bybit (<code>bybit</code>) — 1 bundled skill · Claude pack: <code>bybit-skills</code></strong></summary>
 
 | Skill (`SKILL.md` & `npx --skill`) | Version | Description | Docs |
 |---|---|---|---|
@@ -306,8 +307,8 @@ For platforms whose upstream repositories do not permit third-party ZIP redistri
 - **OKX** (5 skills): Install via OKX OnchainOS / Trade CLI — [TradeSkill OKX Hub](https://tradeskill.si/en/exchanges/okx.html) · [Upstream Repo](https://github.com/okx/agent-skills)
 - **Gate** (20 skills): Install via Gate CLI / MCP generator — [TradeSkill Gate Hub](https://tradeskill.si/en/exchanges/gate.html) · [Upstream Repo](https://github.com/gate/gate-skills)
 - **Binance** (18 skills): Install from binance/binance-skills-hub — [TradeSkill Binance Hub](https://tradeskill.si/en/exchanges/binance.html) · [Upstream Repo](https://github.com/binance/binance-skills-hub)
-- **Bybit** (1 skills): Install from bybit-exchange/trading-cli — [TradeSkill Bybit Hub](https://tradeskill.si/en/exchanges/bybit.html) · [Upstream Repo](https://github.com/bybit-exchange/skills)
-- **Coinbase** (1 skills): Route skill in coinbase/agents — [TradeSkill Coinbase Hub](https://tradeskill.si/en/exchanges/coinbase.html) · [Upstream Repo](https://github.com/coinbase/agents)
+- **Bybit** (1 skill): Install from bybit-exchange/trading-cli — [TradeSkill Bybit Hub](https://tradeskill.si/en/exchanges/bybit.html) · [Upstream Repo](https://github.com/bybit-exchange/skills)
+- **Coinbase** (1 skill): Route skill in coinbase/agents — [TradeSkill Coinbase Hub](https://tradeskill.si/en/exchanges/coinbase.html) · [Upstream Repo](https://github.com/coinbase/agents)
 - **BingX** (14 skills): Clone from BingX-API/api-ai-skills — [TradeSkill BingX Hub](https://tradeskill.si/en/exchanges/bingx.html) · [Upstream Repo](https://github.com/BingX-API/api-ai-skills)
 - **BitMart** (3 skills): Clone from bitmartexchange/bitmart-skills — [TradeSkill BitMart Hub](https://tradeskill.si/en/exchanges/bitmart.html) · [Upstream Repo](https://github.com/bitmartexchange/bitmart-skills)
 
@@ -318,16 +319,16 @@ For platforms whose upstream repositories do not permit third-party ZIP redistri
 Read full bilingual engineering guides, keyless market workflows, and exchange comparisons on [tradeskill.si/en/guides.html](https://tradeskill.si/en/guides.html):
 
 - [OKX vs Binance vs Gate AI Trading Skills Compared (2026)](https://tradeskill.si/en/guides/okx-vs-binance-vs-gate-ai-skills.html) — Compare OKX (18 skills), Binance (21 skills), and Gate (20 skills) official AI agent suites, CLI runtimes, keyless data coverage, and 20% fee rebates.
-- [Claude Code Crypto Trading Tutorial: Install ~/.claude/skills Fast](https://tradeskill.si/en/guides/claude-code-crypto-trading-tutorial.html) — Step-by-step guide to installing verified crypto trading skills into ~/.claude/skills in Claude Code, verifying SHA-256 checksums, and setting CLAUDE.md guardrails.
-- [Cursor, Codex & Windsurf Crypto Trading Skills Multi-IDE Setup](https://tradeskill.si/en/guides/cursor-codex-windsurf-trading-skills.html) — Map exact global skills folders across Cursor (~/.cursor/skills), Codex (~/.agents/skills), Windsurf, and OpenCode, and install multi-exchange bundles in one command.
-- [Keyless Crypto AI Market Data & Research Skills (No API Key)](https://tradeskill.si/en/guides/keyless-crypto-market-data-skills.html) — Run zero-credential crypto market data, klines, funding-rate monitors, and token security audits across OKX, Kraken, HTX, MEXC, Binance, Gate, and BitMart.
-- [Crypto Exchange Fee Rebates for AI Traders: 15%–20% Savings Guide](https://tradeskill.si/en/guides/exchange-fee-rebates-for-ai-traders.html) — Compare verified official invite fee rebates at Gate (20%), OKX (20%), Binance (20%), and Bitget (15%), model high-frequency fee savings, and isolate bot risk.
-- [OKX Agent Skills Tutorial: Trade CLI 1.5.1 & OnchainOS Setup](https://tradeskill.si/en/guides/okx-agent-trade-cli-tutorial.html) — Learn how to install all 18 official OKX CEX and OnchainOS AI skills, run keyless market checks, test simulated demo trading, and switch between ZIP or upstream.
-- [Binance Official 21 AI Trading Skills Guide: CEX, P2P & Web3 Audits](https://tradeskill.si/en/guides/binance-cex-web3-ai-skills-guide.html) — Explore all 21 official Binance AI agent skills spanning CEX spot/futures, C2C P2P, smart-money market rankings, and Web3 token contract audits.
+- [Claude Code Crypto Trading Tutorial (~/.claude/skills)](https://tradeskill.si/en/guides/claude-code-crypto-trading-tutorial.html) — Install verified crypto trading skills into ~/.claude/skills in Claude Code, verify SHA-256 checksums, and set CLAUDE.md guardrails.
+- [Cursor, Codex & Windsurf Crypto Skills Multi-IDE Setup](https://tradeskill.si/en/guides/cursor-codex-windsurf-trading-skills.html) — Map global skills folders across Cursor, Codex, Windsurf, and OpenCode, and install multi-exchange trading bundles in one command.
+- [Keyless Crypto Market Data AI Skills (No API Key)](https://tradeskill.si/en/guides/keyless-crypto-market-data-skills.html) — Run zero-credential crypto market data, klines, funding-rate monitors, and token security audits across OKX, Kraken, HTX, MEXC, Binance, Gate, and BitMart.
+- [Crypto Exchange Fee Rebates for AI Traders (15%–20% Off)](https://tradeskill.si/en/guides/exchange-fee-rebates-for-ai-traders.html) — Compare verified official invite fee rebates at Gate (20%), OKX (20%), Binance (20%), and Bitget (15%), model high-frequency fee savings, and isolate bot risk.
+- [OKX Agent Skills: Trade CLI 1.5.1 & OnchainOS Guide](https://tradeskill.si/en/guides/okx-agent-trade-cli-tutorial.html) — Install all 18 official OKX CEX and OnchainOS AI skills, run keyless market checks, test simulated demo trading, and switch ZIP or upstream.
+- [Binance 21 AI Trading Skills: CEX, P2P & Web3 Audits](https://tradeskill.si/en/guides/binance-cex-web3-ai-skills-guide.html) — Explore all 21 official Binance AI agent skills spanning CEX spot/futures, C2C P2P, smart-money market rankings, and Web3 token contract audits.
 - [Gate vs Bitget AI Trading Bots Guide: Research Intel vs UTA v3](https://tradeskill.si/en/guides/gate-bitget-ai-trading-bots-guide.html) — Compare Gate modular CLI/MCP trading & intel skills (20% rebate) against Bitget bgc UTA v3 and Bitget Wallet RWA skills (15% rebate).
-- [Coinbase vs Kraken vs Bybit AI Trading Skills Technical Comparison](https://tradeskill.si/en/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — Compare Coinbase (CLI + hosted OAuth MCP + x402), Kraken (18 Rust CLI/MCP skills with zero-key paper trading), and Bybit V5 Trading Skills.
+- [Coinbase vs Kraken vs Bybit AI Trading Skills Compared](https://tradeskill.si/en/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — Compare Coinbase (CLI + hosted OAuth MCP + x402), Kraken (18 Rust CLI/MCP skills with zero-key paper trading), and Bybit V5 Trading Skills.
 - [DEX AI Trading Guide: Uniswap vs Jupiter vs OKX OnchainOS Skills](https://tradeskill.si/en/guides/dex-ai-trading-uniswap-vs-jupiter.html) — Compare official DEX AI skills from Uniswap Labs (Swap, v3/v4 LP, DCA, Hook security), Jupiter Solana (Swap v2, Lend, VRFD), and OKX OnchainOS.
-- [24/7 Unattended OKX AI Trading Bot: AstraQuant Setup & 20% Rebate Guide](https://tradeskill.si/en/guides/astraquant-247-okx-ai-trading-bot.html) — Learn how to pair TradeSkill AI exchange skills with sister open-source project AstraQuant (astraquant.top): multi-model AI Council, 17 fail-closed risk gates, and 20% OKX fee rebates.
+- [24/7 OKX AI Trading Bot: AstraQuant & 20% Rebate Guide](https://tradeskill.si/en/guides/astraquant-247-okx-ai-trading-bot.html) — Pair TradeSkill exchange skills with AstraQuant (astraquant.top): multi-model AI Council, 17 fail-closed risk gates, and 20% OKX fee rebates.
 
 ---
 
