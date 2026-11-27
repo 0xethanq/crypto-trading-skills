@@ -19,9 +19,11 @@ All bundled skills in this repository are extracted from pinned upstream Git com
 | **BitMart** (`bitmart`) | 0 / 3 | No explicit redistribution license | `79a4d7f5e9` | [https://github.com/bitmartexchange/bitmart-skills](https://github.com/bitmartexchange/bitmart-skills) |
 | **Uniswap** (`uniswap`) | 8 / 0 | MIT | `989dbafd07` | [https://github.com/Uniswap/uniswap-ai](https://github.com/Uniswap/uniswap-ai) |
 | **Jupiter** (`jupiter`) | 4 / 0 | MIT | `a2211e3f6a` | [https://github.com/jup-ag/agent-skills](https://github.com/jup-ag/agent-skills) |
+| **Hyperliquid** (`hyperliquid`) | 8 / 0 | MIT (Galleon Labs skills + Official SDK) | `98331af5c4` | [https://github.com/galleonlabs/hypergrok-trading-desk](https://github.com/galleonlabs/hypergrok-trading-desk) |
 
 ## Redistribution & Attribution Notes
 
-- **94 bundled exchange skills**: Extracted cleanly with their original `LICENSE` / `LICENSE.md` files preserved inside each `skills/<skill-name>/` directory.
+- **102 bundled exchange & DEX skills**: Extracted cleanly with their original `LICENSE` / `LICENSE.md` files preserved inside each `skills/<skill-name>/` directory (cross-parent `../../docs/` links in Hyperliquid skills are normalized to pinned upstream GitHub commit URLs for standalone extraction).
 - **62 official-upstream-only skills**: Gate, Binance Web3, BingX, BitMart, and selected router/CLI targets are indexed in `catalog.json` (`officialOnlySkills`) and linked back to official repositories instead of mirrored here.
 - **OKX AI Builder Attribution**: `skills/okx-cex-trade` and `skills/okx-cex-bot` retain TradeSkill's local `--aiBuilderCode` CLI tag configuration as disclosed in `skills/okx-cex-trade/references/attribution.md` and `skills/okx-cex-bot/references/attribution.md`.
+- **Flagship Router & Funding Scanner (`skills/tradeskill`)**: Ships TradeSkill's zero-dependency stdlib script `scripts/funding_scanner.py` using public keyless exchange endpoints only.

@@ -23,7 +23,7 @@ SOFTWARE.
 ---
 
 Third-Party Exchange & Protocol Skills Notice:
-All 94 exchange and DEX skill directories under `skills/` (except `skills/tradeskill/`)
+All 102 exchange and DEX skill directories under `skills/` (except `skills/tradeskill/`)
 are redistributed from their respective upstream open-source repositories under their
 original MIT or Apache-2.0 licenses. Refer to the `LICENSE` or `LICENSE.md` file inside
 each `skills/<skill-name>/` directory and `SOURCES.md` for full upstream commit attribution.

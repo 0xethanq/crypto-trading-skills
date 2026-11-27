@@ -6,7 +6,7 @@
     "url": "https://tradeskill.si"
   },
   "metadata": {
-    "description": "95+ AI Agent skills for crypto trading across 15 exchanges & DEXs — powered by TradeSkill (tradeskill.si)",
+    "description": "103 AI Agent skills for crypto trading across 16 exchanges & DEXs — powered by TradeSkill (tradeskill.si)",
     "version": "1.0.0"
   },
   "plugins": [
@@ -16,7 +16,7 @@
       "strict": false,
       "version": "1.0.0",
       "category": "trading",
-      "description": "Flagship TradeSkill router covering discovery, SHA-256 verification, and install guidance across 156 crypto trading skills on 15 exchanges & DEXs.",
+      "description": "Flagship TradeSkill router & keyless cross-exchange funding-rate scanner covering 164 crypto trading skills across 16 exchanges & DEXs.",
       "skills": [
         "./skills/tradeskill"
       ]
@@ -233,6 +233,24 @@
         "./skills/jupiter-lend",
         "./skills/jupiter-swap-migration",
         "./skills/jupiter-vrfd"
+      ]
+    },
+    {
+      "name": "hyperliquid-skills",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "trading",
+      "description": "Hyperliquid L1 perp DEX skills covering API wallets, keyless market/funding/WS, orders, positions & TWAP (8 bundled)",
+      "skills": [
+        "./skills/hyperliquid-setup",
+        "./skills/hyperliquid-market-data",
+        "./skills/hyperliquid-orders",
+        "./skills/hyperliquid-positions",
+        "./skills/hyperliquid-account",
+        "./skills/hyperliquid-advanced",
+        "./skills/hyperliquid-websocket",
+        "./skills/hyperliquid-api-reference"
       ]
     }
   ]

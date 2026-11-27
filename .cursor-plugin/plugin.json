@@ -2,7 +2,7 @@
   "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
   "name": "crypto-trading-skills",
   "displayName": "TradeSkill — Crypto Trading Agent Skills",
-  "description": "95 AI Agent skills for crypto trading across 15 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter).",
+  "description": "103 AI Agent skills for crypto trading across 16 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter, Hyperliquid).",
   "version": "1.0.0",
   "publisher": "0xethanq",
   "author": {
@@ -19,6 +19,7 @@
     "kraken",
     "uniswap",
     "jupiter",
+    "hyperliquid",
     "defi",
     "mcp"
   ],

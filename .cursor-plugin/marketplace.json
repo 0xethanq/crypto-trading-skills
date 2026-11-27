@@ -4,13 +4,13 @@
     "name": "0xethanq"
   },
   "metadata": {
-    "description": "95 AI Agent skills for crypto trading across 15 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter)."
+    "description": "103 AI Agent skills for crypto trading across 16 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter, Hyperliquid)."
   },
   "plugins": [
     {
       "name": "crypto-trading-skills",
       "source": ".",
-      "description": "95 AI Agent skills for crypto trading across 15 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter)."
+      "description": "103 AI Agent skills for crypto trading across 16 exchanges & DEXs (OKX, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, Uniswap, Jupiter, Hyperliquid)."
     }
   ]
 }

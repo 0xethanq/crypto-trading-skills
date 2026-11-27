@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Run keyless funding scanner self-test
+        run: python skills/tradeskill/scripts/funding_scanner.py --self-test
       - name: Validate skills, licenses, and plugin manifests
         run: |
           python - <<'PY'
@@ -23,7 +25,8 @@ jobs:
           root = pathlib.Path('.')
           skills_dir = root / 'skills'
           dirs = sorted(p for p in skills_dir.iterdir() if p.is_dir())
-          assert len(dirs) == 95, f'Expected 95 skill dirs, found {len(dirs)}'
+          assert len(dirs) == 103, f'Expected 103 skill dirs, found {len(dirs)}'
+          assert (skills_dir / 'tradeskill' / 'scripts' / 'funding_scanner.py').is_file()
 
           for d in dirs:
               skill_md = d / 'SKILL.md'
@@ -36,7 +39,7 @@ jobs:
               assert re.search(r'(?m)^description\s*:', fm), f'Missing description in {skill_md}'
 
           catalog = json.loads((root / 'catalog.json').read_text(encoding='utf-8'))
-          assert catalog['stats']['bundledSkills'] == 95
+          assert catalog['stats']['bundledSkills'] == 103
 
           claude = json.loads((root / '.claude-plugin' / 'marketplace.json').read_text(encoding='utf-8'))
           covered = set()

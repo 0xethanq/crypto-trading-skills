@@ -2,12 +2,12 @@
 
 # TradeSkill | 加密货币交易所 AI Agent 技能仓库
 
-**收录 15 大主流交易所与 DEX · 95 个可直装技能包 + 156 个官方技能全量索引**
+**收录 16 大主流交易所与 DEX · 103 个可直装技能包 + 164 个技能全量索引**
 
 [English](README.md) · **简体中文** · [中文站点目录](https://tradeskill.si/) · [来源与 Commit 锁定](SOURCES.md) · [AstraQuant 量化终端](https://astraquant.top/)
 
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-95_可直装-10b981?style=flat-square)](catalog.json)
-[![Exchanges & DEXs](https://img.shields.io/badge/覆盖平台-15_家-3b82f6?style=flat-square)](https://tradeskill.si/)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-103_可直装-10b981?style=flat-square)](catalog.json)
+[![Exchanges & DEXs](https://img.shields.io/badge/覆盖平台-16_家-3b82f6?style=flat-square)](https://tradeskill.si/)
 [![Clients](https://img.shields.io/badge/适配客户端-Claude_Code_%7C_Cursor_%7C_Codex_%7C_Windsurf-111827?style=flat-square)](#快速开始)
 [![Website](https://img.shields.io/badge/官方网站-tradeskill.si-f59e0b?style=flat-square)](https://tradeskill.si/)
 [![AstraQuant](https://img.shields.io/badge/姊妹终端-AstraQuant_7x24-00E599?style=flat-square)](https://github.com/0xethanq/astra-quant-agent)
@@ -19,8 +19,9 @@
 
 **TradeSkill** 为加密货币交易场景打造统一的 AI Agent 技能分发仓库，兼容 **Claude Code**、**Cursor**、**Codex CLI**、**Windsurf**、**OpenCode** 与 **Google Antigravity**。
 
-- **上游 Commit 锁定与许可完整**：仓库内 94 个交易所与 DEX 技能均保留原仓库 MIT / Apache-2.0 `LICENSE`、完整 `SKILL.md` 及 `references/` 文档，外加旗舰路由总技能 `tradeskill`。
-- **本地凭证零托管**：所有 API Key、Secret 与钱包签名均仅在你本地官方文档对应的官方 CLI 中运行。
+- **内置免密跨所资金费率扫描器**：旗舰总技能 `tradeskill` 自带零依赖 `skills/tradeskill/scripts/funding_scanner.py`，无需 API Key 即可一键对齐 **Hyperliquid（1h）与 OKX / Gate / Bitget / Binance / Bybit（8h）** 的等效资金费率、年化 APR 与标记价基差。
+- **上游 Commit 锁定与许可完整**：仓库内 102 个交易所与 DEX 技能均保留原仓库 MIT / Apache-2.0 `LICENSE`、完整 `SKILL.md` 及 `references/` 文档，外加旗舰路由与扫描总技能 `tradeskill`。
+- **本地凭证零托管**：所有 API Key、Secret 与钱包/API Wallet 私钥均仅在你本地官方文档对应的官方 CLI/SDK 中运行。
 - **多种安装通道**：原生兼容 `npx skills add`、Claude Code `/plugin marketplace add`、Cursor 插件市场以及带 SHA-256 校验的一键安装脚本。
 
 ---
@@ -30,57 +31,74 @@
 ### 1. 通用 Skills CLI 安装（推荐，兼容主流 Agent）
 
 ```sh
-# 浏览并选择要安装的技能
+# 浏览并选择要安装的技能（共 103 个可直装技能）
 npx skills add 0xethanq/crypto-trading-skills
 
 # 按名称直装单个技能
 npx skills add 0xethanq/crypto-trading-skills --skill tradeskill
+npx skills add 0xethanq/crypto-trading-skills --skill hyperliquid-market-data
 npx skills add 0xethanq/crypto-trading-skills --skill okx-cex-trade
 npx skills add 0xethanq/crypto-trading-skills --skill kraken-market-intel
 npx skills add 0xethanq/crypto-trading-skills --skill swap-planner
 ```
 
-### 2. Claude Code 插件市场安装
+### 2. 免密跨所资金费率与价差套利扫描（`tradeskill` 内置）
 
-添加一次市场后即可按交易所整套安装：
+装好 `tradeskill` 后即可零依赖运行公开合约市场扫表，自动将 Hyperliquid（1h）与 CEX（8h）折算至统一口径：
+
+```sh
+# 对比 BTC / ETH / SOL / HYPE 各所实时等效 8h 资金费率、年化 APR 与价差
+python3 skills/tradeskill/scripts/funding_scanner.py --symbols BTC,ETH,SOL,HYPE
+
+# 全市场筛选单边 24h 成交额 >= 500 万美元的 Top 15 跨所套利机会
+python3 skills/tradeskill/scripts/funding_scanner.py --top 15 --min-vol 5000000
+
+# 输出结构化 JSON 供 Agent 下单与风控决策流水线消费
+python3 skills/tradeskill/scripts/funding_scanner.py --symbols BTC,ETH,SOL,HYPE --json
+```
+
+### 3. Claude Code 插件市场安装
+
+添加一次市场后即可按交易所或 DEX 整套安装：
 
 ```text
 /plugin marketplace add 0xethanq/crypto-trading-skills
 
-# 安装全平台路由或指定交易所技能包
+# 安装全平台路由或指定交易所/DEX 技能包
 /plugin install tradeskill-hub@crypto-trading-skills
+/plugin install hyperliquid-skills@crypto-trading-skills
 /plugin install okx-skills@crypto-trading-skills
 /plugin install binance-skills@crypto-trading-skills
 /plugin install kraken-skills@crypto-trading-skills
 /plugin install uniswap-skills@crypto-trading-skills
 ```
 
-### 3. 一键脚本安装（带 SHA-256 校验）
+### 4. 一键脚本安装（带 SHA-256 校验）
 
-支持传入单个技能 ID、交易所名称（如 `okx`、`kraken`、`htx`）或 `all`：
+支持传入单个技能 ID、平台名称（如 `hyperliquid`、`okx`、`kraken`、`htx`）或 `all`：
 
 **macOS / Linux：**
 
 ```sh
-curl -fsSL "https://tradeskill.si/install.sh" | sh -s okx-cex-market
+curl -fsSL "https://tradeskill.si/install.sh" | sh -s hyperliquid-market-data
 curl -fsSL "https://tradeskill.si/install.sh" | sh -s -- --client cursor kraken
 ```
 
 **Windows PowerShell：**
 
 ```powershell
-powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskill.si/install.ps1'))) okx-cex-market"
+powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskill.si/install.ps1'))) hyperliquid-market-data"
 ```
 
-### 4. 对话提示词全自动安装
+### 5. 对话提示词全自动安装
 
 把下面这句话直接发给你的 AI 助手：
 
-> 根据 `https://tradeskill.si/install/skillhub.md` 帮我检查目录，并在当前客户端安装 `okx-cex-market` 和 `kraken-market-intel`。
+> 根据 `https://tradeskill.si/install/skillhub.md` 帮我检查目录，并在当前客户端安装 `hyperliquid-market-data` 和 `okx-cex-market`。
 
 ---
 
-## 支持平台矩阵（15 家交易所与 DEX · 156 个官方技能）
+## 支持平台矩阵（16 家交易所与 DEX · 164 个技能）
 
 | 平台 | 类型 | 收录与分发方式 | 开源许可 | 相关入口 |
 |---|---|---|---|---|
@@ -99,14 +117,15 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 | **BitMart** (`bitmart`) | CEX | 仅官方源（3 个） | 未找到明确的再分发许可 | [平台专页](https://tradeskill.si/exchanges/bitmart.html) · [上游仓库](https://github.com/bitmartexchange/bitmart-skills) |
 | **Uniswap** (`uniswap`) | DEX | **8** 个直装 | MIT | [平台专页](https://tradeskill.si/exchanges/uniswap.html) · [上游仓库](https://github.com/Uniswap/uniswap-ai) |
 | **Jupiter** (`jupiter`) | DEX | **4** 个直装 | MIT | [平台专页](https://tradeskill.si/exchanges/jupiter.html) · [上游仓库](https://github.com/jup-ag/agent-skills) |
+| **Hyperliquid** (`hyperliquid`) | DEX | **8** 个直装 | MIT（Galleon Labs 技能快照，配合官方 MIT SDK） | [平台专页](https://tradeskill.si/exchanges/hyperliquid.html) · [上游仓库](https://github.com/galleonlabs/hypergrok-trading-desk) |
 
 ---
 
-## 可直装技能目录（共 95 个）
+## 可直装技能目录（共 103 个）
 
 展开任意交易所即可直接查看仓库内的 `SKILL.md`，或跳转至 [tradeskill.si](https://tradeskill.si/) 查看在线文件预览与一键提问提示词：
 
-- [`tradeskill`](skills/tradeskill/SKILL.md) — 探索、校验并安装覆盖 15 家主流交易所与 DEX 的 156 个官方加密货币 AI 交易技能。（[站点首页](https://tradeskill.si/)）
+- [`tradeskill`](skills/tradeskill/SKILL.md) — 免密跨所永续资金费率与价差扫描器（Hyperliquid / OKX / Gate / Bitget / Binance / Bybit），并支持探索、校验与安装覆盖 16 家主流交易所与 DEX 的 164 个 AI 交易技能。（[站点首页](https://tradeskill.si/)）
 <details>
 <summary><strong>欧易 OKX（<code>okx</code>）— 13 个可直装技能 · 插件包 <code>okx-skills</code></strong></summary>
 
@@ -297,6 +316,22 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 
 </details>
 
+<details>
+<summary><strong>Hyperliquid（<code>hyperliquid</code>）— 8 个可直装技能 · 插件包 <code>hyperliquid-skills</code></strong></summary>
+
+| 技能目录（含 `npx --skill` 名称） | 版本 | 说明 | 详情页 |
+|---|---|---|---|
+| [`hyperliquid-setup`](skills/hyperliquid-setup/SKILL.md) | `1.0.3` | Hyperliquid 环境配置与 API 钱包：安装官方 Python/TS SDK，切换 Testnet 测试网与 Mainnet 主网，并安全授权仅交易不可提现的 API Wallet。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-setup.html) |
+| [`hyperliquid-market-data`](skills/hyperliquid-market-data/SKILL.md) | `1.3.0` | Hyperliquid 免密盘口与资金费率：通过无签名 POST /info 查询 Hyperliquid 中间价、标记价、预言机价、L2 深度盘口、小时资金费率、OI 与 K 线。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-market-data.html) |
+| [`hyperliquid-orders`](skills/hyperliquid-orders/SKILL.md) | `1.2.1` | Hyperliquid 合约限价与 TP/SL 下单：按 tick/lot 精度下达、修改与批量撤销 Hyperliquid 限价与 IOC 市价单，配置分组止盈止损并用 cloid 对账。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-orders.html) |
+| [`hyperliquid-positions`](skills/hyperliquid-positions/SKILL.md) | `1.2.1` | Hyperliquid 持仓保证金与杠杆风控：查询永续持仓与强平参考线，调节全仓/逐仓杠杆、追加逐仓保证金并用 reduce-only IOC 安全平仓。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-positions.html) |
+| [`hyperliquid-account`](skills/hyperliquid-account/SKILL.md) | `1.0.3` | Hyperliquid 账户与资金流水只读查询：无需私钥通过地址即可查询 Hyperliquid 永续仓位、现货余额、触发挂单、成交记录、资金费流水与费率档位。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-account.html) |
+| [`hyperliquid-advanced`](skills/hyperliquid-advanced/SKILL.md) | `1.1.2` | Hyperliquid TWAP 与死人开关高级委托：使用 scheduleCancel 死人开关全撤、TWAP 分批执行、现货下单、子账户/金库寻址及 HIP-3 扩展 DEX 参数。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-advanced.html) |
+| [`hyperliquid-websocket`](skills/hyperliquid-websocket/SKILL.md) | `1.0.2` | Hyperliquid WebSocket 实时行情与成交订阅：免密订阅 allMids、L2 盘口、逐笔成交、BBO 最优报价与账户成交事件 WebSocket 流（附 Python/TS 示例）。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-websocket.html) |
+| [`hyperliquid-api-reference`](skills/hyperliquid-api-reference/SKILL.md) | `1.0.2` | Hyperliquid API 协议与 Builder Fee 速查：紧凑速查 Hyperliquid /info 与 /exchange 端点、L1 签名格式、资产索引、限频配额、错误码与 Builder 费率字段。 | [TradeSkill](https://tradeskill.si/skills/hyperliquid-api-reference.html) |
+
+</details>
+
 
 ### 仅官方源安装技能（62 个）
 
@@ -327,6 +362,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 - [Coinbase vs Kraken vs Bybit AI 技能对比：OAuth MCP、Rust 模拟盘与 V5 CLI](https://tradeskill.si/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — 深入比较 Coinbase（CLI + 托管 OAuth MCP + x402）、Kraken（Rust 单二进制 + 内置免密 Paper 模拟盘 18 技能）与 Bybit V5 Trading Skill 适用场景。
 - [链上 DEX AI 交易指南：Uniswap vs Jupiter vs OnchainOS 多链技能对比](https://tradeskill.si/guides/dex-ai-trading-uniswap-vs-jupiter.html) — 深度对比 Uniswap Labs（8 个 Swap/v4 LP/DCA/Hook 安全审计技能）、Jupiter（Solana Swap v2/Lend/Perps）与 OKX OnchainOS 链上技能使用边界与私钥安全。
 - [7×24 小时无人值守 OKX AI 量化终端：AstraQuant 部署与 20% 返佣实战指南](https://tradeskill.si/guides/astraquant-247-okx-ai-trading-bot.html) — 详解如何将 TradeSkill（Claude Code / Cursor 交易所技能）与姊妹开源终端 AstraQuant (astraquant.top) 组合：15 分钟周期 AI 投委会协同、17 项物理风控与 20% 永久返佣。
+- [Hyperliquid AI 交易 Agent 实战指南：API 钱包与跨所资金费率套利](https://tradeskill.si/guides/hyperliquid-ai-trading-agent-guide.html) — 详解如何为 Claude Code 与 Cursor 接入 Hyperliquid 8 个 MIT 技能：免密 L2 盘口与小时费率扫描、仅交易 API Wallet 安全隔离、TWAP 与跨所资金费率套利实战。
 
 ---
 
@@ -351,7 +387,7 @@ powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskil
 
 ## 安全边界、归因透明与 CI 校验
 
-1. **凭证仅留存在本地**：TradeSkill 不托管也不经过任何交易所 API Key、Passphrase 或钱包私钥。
-2. **先行情/模拟盘，后实盘**：建议优先运行免密行情技能（如 `okx-cex-market`、`kraken-market-intel`、`htx-market-overview`）或交易所内置模拟盘验证工作流。
-3. **OKX AI Builder 订单归因透明披露**：仅 `skills/okx-cex-trade` 与 `skills/okx-cex-bot` 按照 [OKX AI Builder 接入规范](https://www.okx.com/zh-hans/help/ai-builder-program-integration-guide) 保留 `--aiBuilderCode` 订单归因参数（[OKX 官方原仓地址](https://github.com/okx/agent-skills)）；其余 92 个可直装技能均为未改动的上游 MIT / Apache-2.0 原版快照。
-4. **自动 CI 校验**：每次推送都会触发 [`.github/workflows/validate.yml`](.github/workflows/validate.yml)，自动校验全部 95 个技能的 `SKILL.md` Frontmatter、许可证文件与插件清单完整性。
+1. **凭证仅留存在本地**：TradeSkill 不托管也不经过任何交易所 API Key、Passphrase 或钱包/API Wallet 私钥。
+2. **先行情/模拟盘，后实盘**：建议优先运行免密行情技能（如 `hyperliquid-market-data`、`okx-cex-market`、`kraken-market-intel`、`htx-market-overview`）或交易所内置模拟盘/Testnet 验证工作流。
+3. **OKX AI Builder 订单归因透明披露**：仅 `skills/okx-cex-trade` 与 `skills/okx-cex-bot` 按照 [OKX AI Builder 接入规范](https://www.okx.com/zh-hans/help/ai-builder-program-integration-guide) 保留 `--aiBuilderCode` 订单归因参数（[OKX 官方原仓地址](https://github.com/okx/agent-skills)）；其余 100 个可直装技能均保留上游 MIT / Apache-2.0 许可证与原版命令（Hyperliquid 跨目录相对文档链接已规范化为锁定 Commit 直链）。
+4. **自动 CI 校验**：每次推送都会触发 [`.github/workflows/validate.yml`](.github/workflows/validate.yml)，自动校验全部 103 个技能的 `SKILL.md` Frontmatter、许可证文件、插件清单完整性与资金费率扫描器离线自测。

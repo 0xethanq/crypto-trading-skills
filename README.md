@@ -2,12 +2,12 @@
 
 # TradeSkill | Crypto Trading AI Agent Skills
 
-**95 ready-to-install AI Agent skills + 156 official catalog entries across 15 crypto exchanges & DEXs**
+**103 ready-to-install AI Agent skills + 164 catalog entries across 16 crypto exchanges & DEXs**
 
 **English** · [简体中文](README.zh-CN.md) · [Official Web Directory](https://tradeskill.si/en/) · [Source & Commit Locks](SOURCES.md) · [AstraQuant 24/7 Bot](https://astraquant.top/)
 
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-95_Bundled-10b981?style=flat-square)](catalog.json)
-[![Exchanges & DEXs](https://img.shields.io/badge/Exchanges_%26_DEXs-15_Supported-3b82f6?style=flat-square)](https://tradeskill.si/en/)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-103_Bundled-10b981?style=flat-square)](catalog.json)
+[![Exchanges & DEXs](https://img.shields.io/badge/Exchanges_%26_DEXs-16_Supported-3b82f6?style=flat-square)](https://tradeskill.si/en/)
 [![Clients](https://img.shields.io/badge/Clients-Claude_Code_%7C_Cursor_%7C_Codex_%7C_Windsurf-111827?style=flat-square)](#quick-start)
 [![Website](https://img.shields.io/badge/Website-tradeskill.si-f59e0b?style=flat-square)](https://tradeskill.si/en/)
 [![AstraQuant](https://img.shields.io/badge/Sister_Engine-AstraQuant_24%2F7-00E599?style=flat-square)](https://github.com/0xethanq/astra-quant-agent)
@@ -17,10 +17,11 @@
 
 ---
 
-**TradeSkill** aggregates verified official AI Agent skills for crypto CEXs and DEXs into a single reproducible repository compatible with **Claude Code**, **Cursor**, **OpenAI Codex CLI**, **Windsurf**, **OpenCode**, and **Google Antigravity**.
+**TradeSkill** aggregates verified AI Agent skills for crypto CEXs and DEXs into a single reproducible repository compatible with **Claude Code**, **Cursor**, **OpenAI Codex CLI**, **Windsurf**, **OpenCode**, and **Google Antigravity**.
 
+- **Built-in keyless funding arbitrage scanner**: Flagship `tradeskill` ships `skills/tradeskill/scripts/funding_scanner.py` (Python stdlib only, zero API keys) to normalize 1h vs 8h perp funding rates & mark-price basis across **Hyperliquid, OKX, Gate, Bitget, Binance, and Bybit**.
 - **100% locked upstream commits**: Every bundled skill preserves its upstream MIT or Apache-2.0 `LICENSE`, full `SKILL.md` instructions, and `references/` docs.
-- **Safety first**: Zero API keys are ever handled or stored by TradeSkill; keyless market intelligence & paper/demo modes are highlighted across supported exchanges.
+- **Safety first**: Zero API keys are ever handled or stored by TradeSkill; keyless market intelligence & paper/testnet modes are highlighted across supported venues.
 - **Multi-format distribution**: Works natively with `npx skills add`, Claude Code `/plugin marketplace add`, Cursor Plugins, and SHA-256 verified shell/PowerShell installers.
 
 ---
@@ -32,57 +33,74 @@
 Works across Claude Code, Cursor, Codex CLI, Windsurf, OpenCode, and more:
 
 ```sh
-# Browse & install from all 95 bundled skills
+# Browse & install from all 103 bundled skills
 npx skills add 0xethanq/crypto-trading-skills
 
 # Install specific skills directly
 npx skills add 0xethanq/crypto-trading-skills --skill tradeskill
+npx skills add 0xethanq/crypto-trading-skills --skill hyperliquid-market-data
 npx skills add 0xethanq/crypto-trading-skills --skill okx-cex-trade
 npx skills add 0xethanq/crypto-trading-skills --skill kraken-market-intel
 npx skills add 0xethanq/crypto-trading-skills --skill swap-planner
 ```
 
-### 2. Claude Code Plugin Marketplace
+### 2. Built-In Keyless Cross-Exchange Funding-Rate & Basis Scanner (`tradeskill`)
 
-Register this repo once and install exchange packs cleanly by platform:
+Instead of querying each exchange one by one, run the zero-dependency scanner included with `tradeskill`:
+
+```sh
+# Compare BTC, ETH, SOL & HYPE across Hyperliquid (1h) and CEXs (8h) in one command
+python3 skills/tradeskill/scripts/funding_scanner.py --symbols BTC,ETH,SOL,HYPE
+
+# Discover top annualized carry spreads (>= $5M 24h volume per leg)
+python3 skills/tradeskill/scripts/funding_scanner.py --top 15 --min-vol 5000000
+
+# Structured JSON output for agent trading pipelines
+python3 skills/tradeskill/scripts/funding_scanner.py --symbols BTC,ETH,SOL,HYPE --json
+```
+
+### 3. Claude Code Plugin Marketplace
+
+Register this repo once and install exchange or DEX packs cleanly by platform:
 
 ```text
 /plugin marketplace add 0xethanq/crypto-trading-skills
 
-# Install the flagship hub router or exchange bundles
+# Install the flagship hub router or exchange/DEX bundles
 /plugin install tradeskill-hub@crypto-trading-skills
+/plugin install hyperliquid-skills@crypto-trading-skills
 /plugin install okx-skills@crypto-trading-skills
 /plugin install binance-skills@crypto-trading-skills
 /plugin install kraken-skills@crypto-trading-skills
 /plugin install uniswap-skills@crypto-trading-skills
 ```
 
-### 3. One-Line SHA-256 Verified Installer
+### 4. One-Line SHA-256 Verified Installer
 
-Supports installing any skill ID, an entire exchange (e.g. `kraken`, `okx`, `htx`), or `all`:
+Supports installing any skill ID, an entire venue (e.g. `hyperliquid`, `kraken`, `okx`, `htx`), or `all`:
 
 **macOS / Linux:**
 
 ```sh
-curl -fsSL "https://tradeskill.si/install.sh" | sh -s okx-cex-market
+curl -fsSL "https://tradeskill.si/install.sh" | sh -s hyperliquid-market-data
 curl -fsSL "https://tradeskill.si/install.sh" | sh -s -- --client cursor kraken
 ```
 
 **Windows PowerShell:**
 
 ```powershell
-powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskill.si/install.ps1'))) okx-cex-market"
+powershell -NoProfile -Command "& ([scriptblock]::Create((irm 'https://tradeskill.si/install.ps1'))) hyperliquid-market-data"
 ```
 
-### 4. Prompt-Based Agent Install
+### 5. Prompt-Based Agent Install
 
 Paste directly into your AI coding assistant:
 
-> Follow `https://tradeskill.si/install/skillhub.en.md` to inspect the TradeSkill catalog and install `okx-cex-market` and `kraken-market-intel` into my active skills directory.
+> Follow `https://tradeskill.si/install/skillhub.en.md` to inspect the TradeSkill catalog and install `hyperliquid-market-data` and `okx-cex-market` into my active skills directory.
 
 ---
 
-## Supported Exchanges & DEXs (15 Platforms · 156 Official Skills)
+## Supported Exchanges & DEXs (16 Platforms · 164 Catalog Skills)
 
 | Platform | Type | Coverage | License | Links |
 |---|---|---|---|---|
@@ -101,14 +119,15 @@ Paste directly into your AI coding assistant:
 | **BitMart** (`bitmart`) | CEX | 3 upstream-only | No explicit redistribution license | [Docs & CLI](https://tradeskill.si/en/exchanges/bitmart.html) · [GitHub](https://github.com/bitmartexchange/bitmart-skills) |
 | **Uniswap** (`uniswap`) | DEX | **8** bundled | MIT | [Docs & CLI](https://tradeskill.si/en/exchanges/uniswap.html) · [GitHub](https://github.com/Uniswap/uniswap-ai) |
 | **Jupiter** (`jupiter`) | DEX | **4** bundled | MIT | [Docs & CLI](https://tradeskill.si/en/exchanges/jupiter.html) · [GitHub](https://github.com/jup-ag/agent-skills) |
+| **Hyperliquid** (`hyperliquid`) | DEX | **8** bundled | MIT (Galleon Labs skills + Official SDK) | [Docs & CLI](https://tradeskill.si/en/exchanges/hyperliquid.html) · [GitHub](https://github.com/galleonlabs/hypergrok-trading-desk) |
 
 ---
 
-## Bundled Skills Directory (95 Skills)
+## Bundled Skills Directory (103 Skills)
 
 Expand any exchange below to browse every bundled `SKILL.md` directly on GitHub or jump to interactive prompts and CLI docs on [tradeskill.si](https://tradeskill.si/en/):
 
-- [`tradeskill`](skills/tradeskill/SKILL.md) — Discover, verify, and install 156 official crypto trading AI skills across 15 exchanges and DEXs (OKX, Gate, Binance, Bybit, Bitget, Coinbase, Kraken, HTX, MEXC, KuCoin, Crypto.com, BingX, BitMart, Uniswap, Jupiter) from TradeSkill (tradeskill.si) or GitHub. ([TradeSkill En](https://tradeskill.si/en/))
+- [`tradeskill`](skills/tradeskill/SKILL.md) — Keyless cross-exchange perpetual funding-rate & basis scanner (Hyperliquid, OKX, Gate, Bitget, Binance, Bybit) plus discovery, SHA-256 verification, and install router for 164 official crypto trading AI skills across 16 exchanges and DEXs from TradeSkill (tradeskill.si) or GitHub. ([TradeSkill En](https://tradeskill.si/en/))
 <details>
 <summary><strong>OKX (<code>okx</code>) — 13 bundled skills · Claude pack: <code>okx-skills</code></strong></summary>
 
@@ -299,6 +318,22 @@ Expand any exchange below to browse every bundled `SKILL.md` directly on GitHub 
 
 </details>
 
+<details>
+<summary><strong>Hyperliquid (<code>hyperliquid</code>) — 8 bundled skills · Claude pack: <code>hyperliquid-skills</code></strong></summary>
+
+| Skill (`SKILL.md` & `npx --skill`) | Version | Description | Docs |
+|---|---|---|---|
+| [`hyperliquid-setup`](skills/hyperliquid-setup/SKILL.md) | `1.0.3` | Install official Python/TS SDKs, switch Testnet/Mainnet, and authorize a trade-only API Wallet. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-setup.html) |
+| [`hyperliquid-market-data`](skills/hyperliquid-market-data/SKILL.md) | `1.3.0` | Query Hyperliquid mid/mark/oracle prices, L2 depth, hourly funding rates, OI & candles via POST /info. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-market-data.html) |
+| [`hyperliquid-orders`](skills/hyperliquid-orders/SKILL.md) | `1.2.1` | Place, modify, and batch-cancel limit/IOC orders with tick/lot rounding, grouped TP/SL & cloid tracking. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-orders.html) |
+| [`hyperliquid-positions`](skills/hyperliquid-positions/SKILL.md) | `1.2.1` | Inspect perp positions & liquidation prices, update cross/isolated leverage, top up margin & IOC close. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-positions.html) |
+| [`hyperliquid-account`](skills/hyperliquid-account/SKILL.md) | `1.0.3` | Read perp margin, spot balances, trigger orders, fills, funding ledger & fee tiers by address without keys. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-account.html) |
+| [`hyperliquid-advanced`](skills/hyperliquid-advanced/SKILL.md) | `1.1.2` | Execute scheduleCancel dead-man's switch, TWAP slicing, spot orders, sub-account/vault & HIP-3 DEX params. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-advanced.html) |
+| [`hyperliquid-websocket`](skills/hyperliquid-websocket/SKILL.md) | `1.0.2` | Stream allMids, L2 orderbooks, trades, BBO & account fill feeds over WebSocket (Python/TS examples). | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-websocket.html) |
+| [`hyperliquid-api-reference`](skills/hyperliquid-api-reference/SKILL.md) | `1.0.2` | Compact reference for /info and /exchange endpoints, L1 signing, asset IDs, rate limits & Builder Fee fields. | [TradeSkill](https://tradeskill.si/en/skills/hyperliquid-api-reference.html) |
+
+</details>
+
 
 ### Official Upstream-Only Skills (62 Skills)
 
@@ -329,6 +364,7 @@ Read full bilingual engineering guides, keyless market workflows, and exchange c
 - [Coinbase vs Kraken vs Bybit AI Trading Skills Compared](https://tradeskill.si/en/guides/coinbase-kraken-bybit-ai-agent-comparison.html) — Compare Coinbase (CLI + hosted OAuth MCP + x402), Kraken (18 Rust CLI/MCP skills with zero-key paper trading), and Bybit V5 Trading Skills.
 - [DEX AI Trading Guide: Uniswap vs Jupiter vs OKX OnchainOS Skills](https://tradeskill.si/en/guides/dex-ai-trading-uniswap-vs-jupiter.html) — Compare official DEX AI skills from Uniswap Labs (Swap, v3/v4 LP, DCA, Hook security), Jupiter Solana (Swap v2, Lend, VRFD), and OKX OnchainOS.
 - [24/7 OKX AI Trading Bot: AstraQuant & 20% Rebate Guide](https://tradeskill.si/en/guides/astraquant-247-okx-ai-trading-bot.html) — Pair TradeSkill exchange skills with AstraQuant (astraquant.top): multi-model AI Council, 17 fail-closed risk gates, and 20% OKX fee rebates.
+- [Hyperliquid AI Trading Agent Guide: API Wallet & Funding Arb](https://tradeskill.si/en/guides/hyperliquid-ai-trading-agent-guide.html) — Run 8 MIT Hyperliquid AI skills in Claude Code or Cursor: keyless L2 orderbooks, 1h funding scans, trade-only API Wallets, TWAP, and cross-venue arb.
 
 ---
 
@@ -353,7 +389,7 @@ Need unattended 24/7 algorithmic trading instead of manual IDE sessions? Pair th
 
 ## Security, Risk & Attribution Transparency
 
-1. **Credentials stay on your machine**: API keys, secrets, CDP credentials, and wallet private keys are configured strictly for the corresponding local exchange CLI (`okx`, `kraken`, `htx-cli`, `cdcx`, `bgc`, etc.).
-2. **Verify before live execution**: Test with keyless market-data skills (`okx-cex-market`, `kraken-market-intel`, `htx-market-overview`) or built-in paper/demo environments before signing live trades.
-3. **OKX AI Builder Attribution**: `skills/okx-cex-trade` and `skills/okx-cex-bot` preserve TradeSkill's `--aiBuilderCode` CLI order tag configuration per [OKX's AI Builder integration rules](https://www.okx.com/zh-hans/help/ai-builder-program-integration-guide) (unmodified official OKX snapshots are linked on their [OKX GitHub repository](https://github.com/okx/agent-skills)). All remaining 92 exchange skills are byte-for-byte upstream MIT / Apache-2.0 copies.
-4. **Automated CI verification**: Every commit runs [`.github/workflows/validate.yml`](.github/workflows/validate.yml) to verify all `SKILL.md` frontmatter, licenses, and plugin manifests.
+1. **Credentials stay on your machine**: API keys, secrets, CDP credentials, and wallet/API Wallet private keys are configured strictly for the corresponding local exchange CLI or SDK (`okx`, `kraken`, `htx-cli`, `cdcx`, `bgc`, `hyperliquid-python-sdk`, etc.).
+2. **Verify before live execution**: Test with keyless market-data skills (`hyperliquid-market-data`, `okx-cex-market`, `kraken-market-intel`, `htx-market-overview`) or built-in paper/testnet environments before signing live trades.
+3. **OKX AI Builder Attribution**: `skills/okx-cex-trade` and `skills/okx-cex-bot` preserve TradeSkill's `--aiBuilderCode` CLI order tag configuration per [OKX's AI Builder integration rules](https://www.okx.com/zh-hans/help/ai-builder-program-integration-guide) (unmodified official OKX snapshots are linked on their [OKX GitHub repository](https://github.com/okx/agent-skills)). All remaining 100 exchange & DEX skills are unmodified upstream MIT / Apache-2.0 copies.
+4. **Automated CI verification**: Every commit runs [`.github/workflows/validate.yml`](.github/workflows/validate.yml) to verify all 103 skills' `SKILL.md` frontmatter, licenses, plugin manifests, and the keyless funding scanner self-test.
